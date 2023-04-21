@@ -1,0 +1,20 @@
+<div class="container">
+    <h2>Trips & Services</h2>
+    <div class="trip-card" *ngFor="let trip of trips">
+      <div class="trip-image">
+        <!-- Add a high-quality image or video showcasing the trip destination and experiences -->
+      </div>
+      <div class="trip-details">
+        <h3>{{trip.title}}</h3>
+        <p>{{trip.description}}</p>
+        <ul>
+          <li>Itinerary: {{trip.itinerary}}</li>
+          <li>Activities: {{trip.activities}}</li>
+          <li>Pricing: {{trip.pricing}}</li>
+          <li>Age Group: {{trip.ageGroup}}</li>
+          <li>Prerequisites: {{trip.prerequisites}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,70 @@
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+  
+    h2 {
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+  
+    h5 {
+      margin-bottom: 1rem;
+      font-weight: 600;
+      color: #34495e;
+    }
+  
+    a {
+      color: #34495e;
+      text-decoration: none;
+      margin-right: 1rem;
+  
+      &:hover {
+        color: #2c3e50;
+        text-decoration: underline;
+      }
+    }
+  
+    .form-control {
+      margin-bottom: 1rem;
+      border-radius: 30px;
+      border: 1px solid #bdc3c7;
+      padding: 0.5rem 1.5rem;
+    }
+  
+    .btn-primary {
+      background-color: #3498db;
+      border-color: #3498db;
+      border-radius: 30px;
+      padding: 0.5rem 1.5rem;
+      font-weight: bold;
+  
+      &:hover {
+        background-color: #2980b9;
+        border-color: #2980b9;
+      }
+    }
+  
+    // Social media icons
+    i {
+      font-size: 1.5rem;
+      color: #34495e;
+  
+      &:hover {
+        color: #2c3e50;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  }
+  
