@@ -17,4 +17,8 @@ export class NavigateBarComponent implements OnInit {
   toggleMenu() {
     this.showMenu = !this.showMenu;
   }
+
+  closeMenu() {
+    this.showMenu = false;
+  }
 }

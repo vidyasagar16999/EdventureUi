@@ -13,6 +13,7 @@ import { HomepageComponent } from './edventure/homepage/homepage.component';
 import { TripsServicesComponent } from './edventure/trips-services/trips-services.component';
 import { GalleryComponent } from './edventure/gallery/gallery.component';
 import { BlogResourceCenterComponent } from './edventure/blog-resource-center/blog-resource-center.component';
+import { MissionStatementComponent } from './edventure/mission-statement/mission-statement.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BlogResourceCenterComponent } from './edventure/blog-resource-center/bl
     HomepageComponent,
     TripsServicesComponent,
     GalleryComponent,
-    BlogResourceCenterComponent
+    BlogResourceCenterComponent,
+    MissionStatementComponent
   ],
   imports: [
     BrowserModule,

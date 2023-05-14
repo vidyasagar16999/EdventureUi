@@ -1,60 +1,60 @@
 .container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-family: 'Roboto', sans-serif;
-  
-    h2 {
-      margin-bottom: 1.5rem;
-      font-weight: bold;
-      color: #2c3e50;
-    }
-  
-    .accordion {
-      .card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+
+  h2 {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  .accordion {
+    .card {
+      border: none;
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+
+      .card-header {
+        background-color: transparent;
+        padding: 0;
         border: none;
-  
-        &:not(:last-child) {
-          margin-bottom: 1rem;
-        }
-  
-        .card-header {
-          background-color: transparent;
-          padding: 0;
-          border: none;
-  
-          h5 {
-            margin-bottom: 0;
-  
-            .btn {
-              text-align: left;
-              font-weight: 600;
-              color: #34495e;
-              padding: 0.75rem 1.25rem;
-              width: 100%;
+
+        h5 {
+          margin-bottom: 0;
+
+          .btn {
+            text-align: left;
+            font-weight: 600;
+            color: #34495e;
+            padding: 0.75rem 1.25rem;
+            width: 100%;
+            text-decoration: none;
+
+            &:hover {
+              color: #2c3e50;
               text-decoration: none;
-  
-              &:hover {
-                color: #2c3e50;
-                text-decoration: none;
-              }
             }
           }
         }
-  
-        .collapse {
-          .card-body {
-            border-top: 1px solid #bdc3c7;
-            padding: 1.25rem;
-            color: #34495e;
-            background-color: #f5f5f5;
-          }
+      }
+
+      .collapse {
+        .card-body {
+          border-top: 1px solid #bdc3c7;
+          padding: 1.25rem;
+          color: #34495e;
+          background-color: #f5f5f5;
         }
       }
     }
   }
-  
-  @media (max-width: 767px) {
-    .faq-list {
-      padding: 0 1rem;
-    }
+}
+
+@media (max-width: 767px) {
+  .faq-list {
+    padding: 0 1rem;
   }
+}

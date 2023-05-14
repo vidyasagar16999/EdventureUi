@@ -1,79 +1,78 @@
 .container {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  // background: url('') no-repeat center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
   }
-  
-  .hero {
+
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .cta-buttons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-    background: url('') no-repeat center;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-  
-    h1 {
-      font-size: 3rem;
+
+    .btn {
+      padding: 0.75rem 1.5rem;
       font-weight: bold;
-      margin-bottom: 1rem;
-    }
-  
-    p {
-      font-size: 1.25rem;
-      margin-bottom: 2rem;
-    }
-  
-    .cta-buttons {
-      display: flex;
-  
-      .btn {
-        padding: 0.75rem 1.5rem;
-        font-weight: bold;
-        margin: 0 0.5rem;
-  
-        &.btn-primary {
-          background-color: #3498db;
-          border-color: #3498db;
-          color: #fff;
-  
-          &:hover {
-            background-color: #2980b9;
-            border-color: #2980b9;
-          }
+      margin: 0 0.5rem;
+
+      &.btn-primary {
+        background-color: #3498db;
+        border-color: #3498db;
+        color: #fff;
+
+        &:hover {
+          background-color: #2980b9;
+          border-color: #2980b9;
         }
-  
-        &.btn-secondary {
-          background-color: transparent;
-          border-color: #fff;
-          color: #fff;
-  
-          &:hover {
-            background-color: rgba(255, 255, 255, 0.1);
-          }
+      }
+
+      &.btn-secondary {
+        background-color: transparent;
+        border-color: #fff;
+        color: #fff;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.1);
         }
       }
     }
   }
-  
-  .showcase {
-    margin-top: 2rem;
-  
-    // Add styles for your showcase visuals (images or video) here
+}
+
+.showcase {
+  margin-top: 2rem;
+
+}
+
+@media (max-width: 767px) {
+  .intro-section {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  @media (max-width: 767px) {
-    .intro-section {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .usp,
-    .call-to-action {
-      width: 100%;
-    }
-  
-    .call-to-action {
-      margin-top: 1rem;
-    }
+
+  .usp,
+  .call-to-action {
+    width: 100%;
   }
+
+  .call-to-action {
+    margin-top: 1rem;
+  }
+}

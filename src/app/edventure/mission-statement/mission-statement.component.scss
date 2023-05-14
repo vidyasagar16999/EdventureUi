@@ -1,0 +1,25 @@
+.mission-statement {
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(51, 51, 51) 3px 3px 3px;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  background-image: url('/assets/images/mission-main.webp');
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  padding: 6rem; // Add padding to ensure the content is not cut off
+  width:auto !important; // Make sure the container covers the entire viewport height
+  min-width: 0 !important;
+  background-position: 50% 0px;
+}
