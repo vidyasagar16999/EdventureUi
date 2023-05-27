@@ -1,9 +1,9 @@
 <div class="container">
   <h2>Trips & Services</h2>
   <div class="trip-card" *ngFor="let trip of trips">
-    <div class="trip-image">
-      <!-- Add a high-quality image or video showcasing the trip destination and experiences -->
-    </div>
+      <div class="trip-image">
+        <img src="{{trip.url}}" alt="{{trip.alt}}" />
+      </div>
     <div class="trip-details">
       <h3>{{trip.title}}</h3>
       <p>{{trip.description}}</p>

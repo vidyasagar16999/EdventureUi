@@ -62,26 +62,26 @@
 }
 
 @media (max-width: 767px) {
-  .trips-container {
+  .container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 0.5rem;
   }
 
-  .trip-item {
-    .trip-title {
-      font-size: 1.2rem;
-    }
+  // .trip-item {
+  //   .trip-title {
+  //     font-size: 1.2rem;
+  //   }
 
-    .trip-description {
-      font-size: 0.9rem;
-    }
+  //   .trip-description {
+  //     font-size: 0.9rem;
+  //   }
 
-    .trip-pricing {
-      font-size: 1.1rem;
-    }
+  //   .trip-pricing {
+  //     font-size: 1.1rem;
+  //   }
 
-    .trip-info {
-      font-size: 0.8rem;
-    }
-  }
+  //   .trip-info {
+  //     font-size: 0.8rem;
+  //   }
+  // }
 }

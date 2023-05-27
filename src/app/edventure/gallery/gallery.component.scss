@@ -39,9 +39,3 @@
     grid-gap: 0.5rem;
   }
 }
-
-@media (max-width: 480px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
-}
