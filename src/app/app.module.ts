@@ -4,16 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NavigateBarComponent } from './edventure/navigate-bar/navigate-bar.component';
-import { FooterComponent } from './edventure/footer/footer.component';
-import { ContactUsComponent } from './edventure/contact-us/contact-us.component';
-import { FaqComponent } from './edventure/faq/faq.component';
-import { AboutUsComponent } from './edventure/about-us/about-us.component';
-import { HomepageComponent } from './edventure/homepage/homepage.component';
-import { TripsServicesComponent } from './edventure/trips-services/trips-services.component';
-import { GalleryComponent } from './edventure/gallery/gallery.component';
-import { BlogResourceCenterComponent } from './edventure/blog-resource-center/blog-resource-center.component';
-import { MissionStatementComponent } from './edventure/mission-statement/mission-statement.component';
+import { NavigateBarComponent } from './MilesUnfold/navigate-bar/navigate-bar.component';
+import { FooterComponent } from './MilesUnfold/footer/footer.component';
+import { ContactUsComponent } from './MilesUnfold/contact-us/contact-us.component';
+import { FaqComponent } from './MilesUnfold/faq/faq.component';
+import { AboutUsComponent } from './MilesUnfold/about-us/about-us.component';
+import { HomepageComponent } from './MilesUnfold/homepage/homepage.component';
+import { TripsServicesComponent } from './MilesUnfold/trips-services/trips-services.component';
+import { GalleryComponent } from './MilesUnfold/gallery/gallery.component';
+import { BlogResourceCenterComponent } from './MilesUnfold/blog-resource-center/blog-resource-center.component';
+import { MissionStatementComponent } from './MilesUnfold/mission-statement/mission-statement.component';
 
 @NgModule({
   declarations: [

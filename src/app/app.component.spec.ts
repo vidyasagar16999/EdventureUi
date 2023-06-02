@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'EdventureUi'`, () => {
+  it(`should have as title 'MilesUnfold'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('EdventureUi');
+    expect(app.title).toEqual('MilesUnfold');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('EdventureUi app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('MilesUnfold app is running!');
   });
 });

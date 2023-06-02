@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContactUsComponent } from './edventure/contact-us/contact-us.component';
-import { FaqComponent } from './edventure/faq/faq.component';
-import { AboutUsComponent } from './edventure/about-us/about-us.component';
-import { HomepageComponent } from './edventure/homepage/homepage.component';
-import { TripsServicesComponent } from './edventure/trips-services/trips-services.component';
-import { GalleryComponent } from './edventure/gallery/gallery.component';
-import { BlogResourceCenterComponent } from './edventure/blog-resource-center/blog-resource-center.component';
+import { ContactUsComponent } from './MilesUnfold/contact-us/contact-us.component';
+import { FaqComponent } from './MilesUnfold/faq/faq.component';
+import { AboutUsComponent } from './MilesUnfold/about-us/about-us.component';
+import { HomepageComponent } from './MilesUnfold/homepage/homepage.component';
+import { TripsServicesComponent } from './MilesUnfold/trips-services/trips-services.component';
+import { GalleryComponent } from './MilesUnfold/gallery/gallery.component';
+import { BlogResourceCenterComponent } from './MilesUnfold/blog-resource-center/blog-resource-center.component';
 
 const routes: Routes = [
   { path:'', component: HomepageComponent},
