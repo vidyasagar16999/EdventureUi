@@ -43,4 +43,20 @@ export class HomepageComponent implements OnInit, OnDestroy  {
       this.currentImageIndex = 0;
     }
   }
+
+  services = [
+    {
+      id: 1,
+      name: 'Trip 1',
+      description: 'This is trip 1.',
+      image: 'assets/images/nagarjuna sagar.jpeg',
+    },
+    {
+      id: 2,
+      name: 'Trip 2',
+      description: 'This is trip 2.',
+      image: 'assets/images/ramoji film.jfif'
+    },
+    // add more trips/services as needed
+  ];
 }

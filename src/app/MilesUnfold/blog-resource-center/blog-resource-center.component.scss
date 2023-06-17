@@ -1,3 +1,12 @@
+.blogst{
+  width: 100%;
+  padding-top: 90px;
+  padding-left: 15%;
+  padding-bottom: 1%;
+  padding-right: 15%;
+  height: 510px;
+}
+
 .blog-container {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -59,4 +68,12 @@
     grid-template-columns: 1fr;
     grid-gap: 1rem;
   }
+  .blogst {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-bottom: 1%;
+    padding-right: 15%;
+    height: 510px;
+}
 }

@@ -1,7 +1,14 @@
+.contactst {
+  width: 100%;
+  padding-top: 0px;
+  height: 310px;
+}
+
 .container {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-family: 'Roboto', sans-serif;
+
 
   h2 {
     margin-bottom: 1.5rem;
@@ -13,6 +20,8 @@
     margin-bottom: 1rem;
     font-weight: 600;
     color: #34495e;
+    font-size: 31px;
+    font-family: cursive;
   }
 
   a {
@@ -61,5 +70,4 @@
   background-size: cover;
 }
 
-@media (max-width: 767px) {
-}
+@media (max-width: 767px) {}
