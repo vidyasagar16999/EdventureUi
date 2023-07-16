@@ -1,61 +1,71 @@
 <section class="hero">
   <div class="hero-content">
-    <h1>Your Unique Selling Proposition (USP)</h1>
-    <p>A short but powerful statement about your startup that sets you apart.</p>
-    <button class="hero-btn">Book Now</button>
+    <h3>Unleash your curiosity: Dive into unique educational and fun trips</h3>
+    <!-- <p>Dive into unique educational and fun trips</p> -->
+    <button routerLink="/trips-services" class="hero-btn">Explore</button>
   </div>
 </section>
 <div class="container">
   <div class="box">
-    <img src="assets/images/nagarjuna sagar.jpeg" alt="Page 1" />
-    <a routerLink="/trips-services">
+    <img src="assets/images/nature.jpg" alt="Page 1" />
+    <p class="box-text">Agriculture/Nature Visit</p>
+    <a routerLink="/trip-detail/1">
       <p class="button-text">Learn More</p>
     </a>
   </div>
   <div class="box">
-    <img src="assets/images/ramoji film.jfif" alt="Page 2" />
-    <a routerLink="/trips-services">
+    <img src="assets/images/ramoji.jpg" alt="Page 2" />
+    <p class="box-text">Ramoji Fil City</p>
+    <a routerLink="/trip-detail/2">
       <p class="button-text">Learn More</p>
     </a>
   </div>
   <div class="box">
     <img src="assets/images/nagarjuna sagar.jpeg" alt="Page 3" />
-    <a routerLink="/trips-services">
+    <p class="box-text">Nagarjuna Sagar</p>
+    <a routerLink="/trip-detail/3">
       <p class="button-text">Learn More</p>
     </a>
   </div>
   <div class="box">
-    <img src="assets/images/ramoji film.jfif" alt="Page 4" />
-    <a routerLink="/trips-services">
+    <img src="assets/images/bmscience.jfif" alt="Page 4" />
+    <p class="box-text">BM Science Planatary</p>
+    <a routerLink="/trip-detail/4">
       <p class="button-text">Learn More</p>
     </a>
   </div>
   <div class="box">
-    <img src="assets/images/nagarjuna sagar.jpeg" alt="Page 5" />
-    <a routerLink="/trips-services">
+    <img src="assets/images/zoo1.jpg" alt="Page 5" />
+    <p class="box-text">Nehru Zoological Park</p>
+    <a routerLink="/trip-detail/5">
       <p class="button-text">Learn More</p>
     </a>
   </div>
   <div class="box">
-    <img src="assets/images/ramoji film.jfif" alt="Page 6" />
-    <a routerLink="/trips-services">
+    <img src="assets/images/wonder11.webp" alt="Page 6" />
+    <p class="box-text">Wonderla</p>
+    <a routerLink="/trip-detail/6">
       <p class="button-text">Learn More</p>
     </a>
-  </div>
-
-  <div class="more-services-section">
-    <h2>Discover More</h2>
-    <p>Explore all the services and trips we offer. Start your adventure today!</p>
-    <button routerLink="/trips-services" class="more-services-button">See More</button>
   </div>
 </div>
-
+<div class="more-services-section">
+  <h2>Discover More</h2>
+  <p>Explore all the services and trips we offer. Start your adventure today!</p>
+  <button routerLink="/trips-services" class="more-services-button">See More</button>
+</div>
 <div class="about-us-section">
-  <h2>About Us</h2>
-  <p>
-    We are a dedicated group of adventure enthusiasts aiming to make your dream trip a reality.
-    We are passionate about providing you with exceptional experiences that enrich your life and broaden your
-    perspectives.
-  </p>
-  <button routerLink="/about-us" class="learn-more-btn">Learn More</button>
-</div>
+  <div class="about-us-image">
+    <img src="assets/images/aboutus11.png" alt="About Us">
+  </div>
+  <div class="about-us-text">
+    <h2>About Us</h2>
+    <p>
+      We are a dedicated group of adventure enthusiasts aiming to make your dream trip a reality.
+      We are passionate about providing you with exceptional experiences that enrich your life and broaden your
+      perspectives.
+    </p>
+    <button routerLink="/about-us" class="learn-more-btn">Learn More</button>
+  </div>
+</div> 
+<app-mission-statement></app-mission-statement>

@@ -14,6 +14,9 @@ import { TripsServicesComponent } from './MilesUnfold/trips-services/trips-servi
 import { GalleryComponent } from './MilesUnfold/gallery/gallery.component';
 import { BlogResourceCenterComponent } from './MilesUnfold/blog-resource-center/blog-resource-center.component';
 import { MissionStatementComponent } from './MilesUnfold/mission-statement/mission-statement.component';
+import { TripDetailsComponent } from './MilesUnfold/trip-details/trip-details.component';
+import { BlogDetailComponent } from './MilesUnfold/blog-detail/blog-detail.component';
+import { PrivacyPolicyComponent } from './MilesUnfold/privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { MissionStatementComponent } from './MilesUnfold/mission-statement/missi
     TripsServicesComponent,
     GalleryComponent,
     BlogResourceCenterComponent,
-    MissionStatementComponent
+    MissionStatementComponent,
+    TripDetailsComponent,
+    BlogDetailComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,

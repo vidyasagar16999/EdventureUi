@@ -1,0 +1,32 @@
+<div *ngIf="tripDetail" class="trip-detail-container">
+    <div class="trip-detail-header">
+        <h1>{{tripDetail.name}}</h1>
+        <img [src]="tripDetail.imageURL" alt="{{tripDetail.name}}" class="tripDetail" />
+    </div>
+
+    <div class="trip-detail-content">
+        <h2>Description</h2>
+        <p>{{tripDetail.description}}</p>
+
+        <h2>Itinerary</h2>
+        <p>{{tripDetail.itinerary}}</p>
+
+        <h2>Activities</h2>
+        <p>{{tripDetail.activities}}</p>
+
+        <h2>Activities</h2>
+        <ul>
+            <li *ngFor="let itinerary of tripDetail.itinerary">{{itinerary}}</li>
+        </ul>
+
+        <h2>Pricing</h2>
+        <p>{{tripDetail.pricing}}</p>
+
+        <h2>Age Group</h2>
+        <p>{{tripDetail.ageGroup}}</p>
+
+        <h2>Prerequisites</h2>
+        <p>{{tripDetail.prerequisites}}</p>
+    </div>
+    <a routerLink="/trips-services" class="back-button">Back to Trips</a>
+</div>

@@ -1,0 +1,12 @@
+<div *ngIf="blogDetail" class="blog-detail">
+    <h1 class="blog-title">{{blogDetail.title}}</h1>
+    <div>
+        <img class="blog-featured-image" src="{{blogDetail.featuredImage}}" alt="Featured image for blog post">
+    </div>
+    <p class="blog-summary">{{blogDetail.summary}}</p>
+    <div *ngFor="let itinerary of blogDetail.content" class="blog-content">
+        <h2>{{itinerary.heading}}</h2>
+        <p>{{itinerary.content}}</p>
+    </div>
+    <a routerLink="/blog" class="back-button">Back to Blogs</a>
+</div>

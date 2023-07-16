@@ -7,6 +7,9 @@ import { HomepageComponent } from './MilesUnfold/homepage/homepage.component';
 import { TripsServicesComponent } from './MilesUnfold/trips-services/trips-services.component';
 import { GalleryComponent } from './MilesUnfold/gallery/gallery.component';
 import { BlogResourceCenterComponent } from './MilesUnfold/blog-resource-center/blog-resource-center.component';
+import { TripDetailsComponent } from './MilesUnfold/trip-details/trip-details.component';
+import { BlogDetailComponent } from './MilesUnfold/blog-detail/blog-detail.component';
+import { PrivacyPolicyComponent } from './MilesUnfold/privacy-policy/privacy-policy.component';
 
 const routes: Routes = [
   { path:'', component: HomepageComponent},
@@ -15,11 +18,16 @@ const routes: Routes = [
   { path:'about-us', component: AboutUsComponent},
   { path:'trips-services', component: TripsServicesComponent},
   { path:'gallery', component: GalleryComponent},
-  { path:'blog', component: BlogResourceCenterComponent}
+  { path:'blog', component: BlogResourceCenterComponent},
+  { path: 'trip-detail/:id', component: TripDetailsComponent},
+  { path: 'blog-detail/:id', component: BlogDetailComponent},
+  { path: 'privacy-policy', component: PrivacyPolicyComponent},
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration: 'top'
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -1,14 +1,14 @@
 <div style="position: relative; text-align: center;">
-  <img class= "contactst" src="assets/images/abc.jpg" alt="My Image">
+  <img class="contactst" src="assets/images/abc.jpg" alt="My Image">
   <div style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); color: white;">
     <h1>Contact Us</h1>
   </div>
 </div>
 <div class="container">
   <!-- <h2>Contact Us</h2> -->
-  <div class="row">
-    <div class="col-md-6" style="
-    padding-bottom: 20px;">
+  <div class="row" style="
+  background-color: aliceblue;">
+    <div class="col-md-6" style="padding-bottom: 20px;text-align: -webkit-center;padding-top: 5%;">
       <h5>You can find us at</h5>
       <p style="font-family: auto;padding-bottom: 5%;">
         Phone: +91 9515077185<br />
@@ -21,6 +21,19 @@
       <a href="#"><i class="fab fa-twitter"></i></a>
       <a href="#"><i class="fab fa-instagram"></i></a>
       <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="col-md-6 whatsapp-chat">
+      <img src="assets/images/whatsapp2.png" alt="About Us" style="height: 30%;width: 45%;margin-bottom: 5%;">
+      <p>Whatsapp Us</p>
+      <a href="https://wa.me/919515077185?text=I%20am%20interested%20in%20your%20Educational%20Trips." target="_blank">
+        <button class="whatsapp-button">Message</button>
+      </a>
+    </div>
+
+  </div>
+  <div class="row" style="padding-top: 5%;">
+    <div class="col-md-6 contact-us-image">
+      <img src="assets/images/aboutus13.png" alt="About Us">
     </div>
     <div class="col-md-6">
       <h5>Send Us a Message</h5>
@@ -37,8 +50,13 @@
         <div class="form-group">
           <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" [disabled]="true">Submit</button>
       </form>
     </div>
   </div>
+<div>
+  <p style="color: red;"> We are experiencing technical difficulties with our email service. Please contact us by phone, whatsapp-chat, or social media in the meantime.</p>
 </div>
+</div>
+
+<app-mission-statement></app-mission-statement>
