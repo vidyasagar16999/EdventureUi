@@ -109,18 +109,18 @@ export class TripsServicesComponent implements OnInit {
       url: 'assets/images/salarjung.jpeg',
       alt: 'Image 1 description'
     },
-    {
-      id: 9,
-      title: 'Jala Vihar',
-      description: 'Jalavihar, located in Hyderabad, is the perfect place for water and amusement games. From thrilling rides to relaxing activities, Jalavihar is filled with fun and offers something for everyone. Students can enjoy the exhilarating water rides, spend time at the wave pool, or participate in the various games available.',
-      activities: 'Water rides, wave pool, games and activities, team-building exercises.',
-      groupSize: 'Itinerary details for Trip 1.',
-      duration: 'Itinerary details for Trip 1.',
-      ageGroup: 'Age group recommendation for Trip 1.',
-      targetAreas: 'Recreation, team building, fun and entertainment, physical activity.',
-      url: 'assets/images/jalavihar2.jfif',
-      alt: 'Image 3 description'
-    },
+    // {
+    //   id: 9,
+    //   title: 'Jala Vihar',
+    //   description: 'Jalavihar, located in Hyderabad, is the perfect place for water and amusement games. From thrilling rides to relaxing activities, Jalavihar is filled with fun and offers something for everyone. Students can enjoy the exhilarating water rides, spend time at the wave pool, or participate in the various games available.',
+    //   activities: 'Water rides, wave pool, games and activities, team-building exercises.',
+    //   groupSize: 'Itinerary details for Trip 1.',
+    //   duration: 'Itinerary details for Trip 1.',
+    //   ageGroup: 'Age group recommendation for Trip 1.',
+    //   targetAreas: 'Recreation, team building, fun and entertainment, physical activity.',
+    //   url: 'assets/images/jalavihar2.jfif',
+    //   alt: 'Image 3 description'
+    // },
     {
       id: 10,
       title: 'Industrial Visit',

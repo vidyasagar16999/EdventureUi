@@ -74,11 +74,7 @@
     text-align: center;
 }
 
-img {
-    display: inline-block;
-    max-width: 40%;
-    vertical-align: middle;
-}
+
 
 .social-icons-list {
     display: -webkit-box;
@@ -166,7 +162,7 @@ p {
 }
 
 .hover-link {
-    opacity: 0.75;
+    //opacity: 0.75;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
     color: #222525;
@@ -200,6 +196,7 @@ a {
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+    font-size: medium;
 }
 
 @media screen and (max-width: 991px) {

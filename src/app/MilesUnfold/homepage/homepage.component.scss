@@ -6,6 +6,8 @@
   justify-content: space-between;
   align-items: center;
 
+  
+
   .box {
     width: 32%;
     height: 390px;
@@ -13,7 +15,7 @@
     justify-content: center;
     align-items: center;
     background-color: #f8f9fa;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     border-radius: 10px;
     transition: transform .3s ease-in-out;
     flex-direction: column;
@@ -52,11 +54,25 @@
   }
 }
 
+.lear-more-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 1rem 2rem;
+ 
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+}
 .hero {
-  background-image: url('/assets/images/kids2.jpg');
+  background-image: url('/assets/images/home2.jpg');
   background-size: cover;
   background-position: center;
-  height: 75vh; // this makes the hero section cover the full viewport height
+  height: 85vh; // this makes the hero section cover the full viewport height
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +81,8 @@
 
   .hero-content {
     max-width: 1200px;
-    padding: 20px;
+    //padding: 20px;
+    padding-right: 40%;
   }
 
   h1 {
@@ -92,12 +109,14 @@
   // width: calc(100% + 30px); // Extend the width by the total of both side paddings
   // margin-left: -15px; // Offset the left padding
   // margin-right: -15px; // Offset the right padding
-  background: url('/assets/images/discover.jpg') no-repeat center center / cover;
+ // background: url('/assets/images/discover.jpg') no-repeat center center / cover;
   //background-size: cover;
   text-align: center;
-  padding: 6rem 0;
-  color: #fff;
+  padding: 3rem 0;
+ // color: #fff;
   //margin: 2rem 0;
+  //margin-bottom: 1%;
+  background-color: aliceblue;
 
   h2 {
     font-size: 2rem;
@@ -162,8 +181,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
-  margin: 3%;
+  padding: 3rem;
+  margin: 2%;
+  margin-bottom: 0%;
+  background-color: mediumaquamarine;
 
   .about-us-image {
     flex: 1;
@@ -202,7 +223,7 @@
 
 @media only screen and (max-width: 600px) {
   .hero {
-    height: auto;
+    height: 65vh;
     padding: 50px 10px;
 
     .hero-content {
