@@ -42,10 +42,12 @@
       a {
         text-decoration: none;
         color: #fff;
-      }
-
-      &.active {
-        color: #3498db;
+        // &.active {
+        //   color: #f1c40f; // Change the color for the active link
+        // }
+        &:hover {
+          color: #f7921e;
+        }
       }
     }
   }
@@ -91,9 +93,12 @@
           display: block;
           padding: 0.5rem 1rem;
 
-          //   &.active {
-          //     color: #f1c40f; // Change the color for the active link
-          //   }
+            // &.active {
+            //   color: #f1c40f; // Change the color for the active link
+            // }
+            &:hover {
+            color: #f1c40f;
+            }
         }
       }
     }

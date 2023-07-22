@@ -6,8 +6,6 @@
   justify-content: space-between;
   align-items: center;
 
-  
-
   .box {
     width: 32%;
     height: 390px;
@@ -106,16 +104,8 @@
 }
 
 .more-services-section {
-  // width: calc(100% + 30px); // Extend the width by the total of both side paddings
-  // margin-left: -15px; // Offset the left padding
-  // margin-right: -15px; // Offset the right padding
- // background: url('/assets/images/discover.jpg') no-repeat center center / cover;
-  //background-size: cover;
   text-align: center;
   padding: 3rem 0;
- // color: #fff;
-  //margin: 2rem 0;
-  //margin-bottom: 1%;
   background-color: aliceblue;
 
   h2 {
@@ -145,46 +135,14 @@
   }
 }
 
-// .about-us-section {
-//   text-align: center;
-//   padding: 2rem 0;
-
-//   h2 {
-//     font-size: 2.5rem;
-//     color: #333;
-//     margin-bottom: 1rem;
-//   }
-
-//   p {
-//     font-size: 1.2rem;
-//     color: #666;
-//     margin-bottom: 2rem;
-//     line-height: 1.5;
-//     padding: 0 1rem;
-//   }
-
-//   .learn-more-btn {
-//     background-color: #3498db;
-//     color: #fff;
-//     padding: 1rem 2rem;
-//     border: none;
-//     border-radius: 4px;
-//     font-size: 1.1rem;
-//     transition: background-color 0.3s ease;
-
-//     &:hover {
-//       background-color: #2980b9;
-//     }
-//   }
-//}
 .about-us-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  margin: 2%;
+  //margin: 2%;
   margin-bottom: 0%;
-  background-color: mediumaquamarine;
+  background-color: lavender;
 
   .about-us-image {
     flex: 1;
@@ -255,25 +213,9 @@
     font-size: 1.5rem;
   }
 
-  // .about-us-section {
-  //   padding: 1rem 0;
-
-  //   h2 {
-  //     font-size: 2rem;
-  //   }
-
-  //   p {
-  //     font-size: 1.1rem;
-  //   }
-
-  //   .learn-more-btn {
-  //     padding: 0.8rem 1.5rem;
-  //     font-size: 1rem;
-  //   }
-  // }
   .about-us-section {
     flex-direction: column;
-    padding: 3%;
+    padding: 5%;
 
     .about-us-image {
       padding-right: 0;

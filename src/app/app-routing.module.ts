@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactUsComponent } from './MilesUnfold/contact-us/contact-us.component';
 import { FaqComponent } from './MilesUnfold/faq/faq.component';
@@ -28,6 +28,7 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes, {
     scrollPositionRestoration: 'top'
   })],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppRoutingModule { }

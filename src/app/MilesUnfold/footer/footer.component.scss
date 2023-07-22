@@ -2,7 +2,7 @@
     padding-top: 16px;
     padding-bottom: 8px;
     background-color: black;
-    color: aliceblue;
+    color: darkorange;
 }
 
 .container {
@@ -169,16 +169,20 @@ p {
     color: #fff;
 
     a {
-        color: #f7921e;
+        color: chocolate;
         text-decoration: none;
     }
 }
 
 a {
-    color: #f7921e;
+    color: aliceblue;
     text-decoration: none;
     background-color: transparent;
-}
+
+    &:hover {
+        color: #f7921e;
+      }
+} 
 
 .link-list {
     display: -ms-grid;
@@ -199,7 +203,7 @@ a {
     font-size: medium;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
     element {
         width: 100%;
         max-width: 100%;

@@ -22,6 +22,7 @@ h2 {
     padding-top: 1.5rem;
     font-family: cursive;
   }
+
   .card {
     border: none;
     //background-color: cadetblue;
@@ -69,15 +70,17 @@ h2 {
 
 .learn-more-btn {
   font-size: 1em;
- // padding: 10px 20px;
+  // padding: 10px 20px;
   color: white;
-  background-color: #f7921e; /* WhatsApp color */
+  background-color: #f7921e;
+  /* WhatsApp color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 
 }
+
 .hero {
   background-image: url(/assets/images/faq11.jpg);
   background-size: contain;
@@ -86,7 +89,8 @@ h2 {
   width: 100%;
   margin-top: 5%;
 }
-@media (max-width: 767px) {
+
+@media (max-width: 768px) {
   .faq-list {
     padding: 0 1rem;
   }

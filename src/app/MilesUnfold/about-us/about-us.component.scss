@@ -34,7 +34,7 @@ html {
 }
 
 .container {
-  padding: 0 16px;
+  padding: 0 12px;
 }
 
 .container::after,
@@ -97,16 +97,17 @@ html {
 
 .learn-more-btn {
   font-size: 1em;
-  padding: 10px 20px;
+  padding: 5px 5px;
   color: white;
-  background-color: #f7921e; /* WhatsApp color */
+  background-color: #f7921e;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 
 }
-@media screen and (max-width: 650px) {
+
+@media screen and (max-width: 768px) {
   .column {
     width: 100%;
     display: block;
