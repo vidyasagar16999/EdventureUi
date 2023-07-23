@@ -39,7 +39,7 @@ export class TripDetailsComponent implements OnInit {
       ],
       activities: 'hands-on and immersive experience for children, fostering their understanding of agriculture, nature, and the environment.',
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 10 and above.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
     },
     {
@@ -56,7 +56,7 @@ export class TripDetailsComponent implements OnInit {
       ],
       activities: "Film Sets Exploration, Filmmaking Workshops, Adventure Rides, Eco-Zone Exploration, Traditional Arts and Crafts, Dance and Music Sessions",
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 10 and above.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
     },
     {
@@ -90,7 +90,7 @@ export class TripDetailsComponent implements OnInit {
       ],
       activities: "Planetarium Shows, Space Exploration Exhibits, Science Demonstrations",
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 10 and above.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
     },
     {
@@ -107,7 +107,7 @@ export class TripDetailsComponent implements OnInit {
       ],
       activities: "Wildlife Encounters, Educational Signage and Exhibits, Children's Park, Nature Trails and Botanical Gardens",
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 10 and above.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
     },
     {
@@ -124,7 +124,7 @@ export class TripDetailsComponent implements OnInit {
       ],
       activities: "Thrill Rides, Water Park Adventures, Interactive Gaming Zones, Adventure Sports, Play Zones",
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 10 and above.',
+      ageGroup: 'This trip is suitable for people aged 12 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
     },
     {
@@ -141,7 +141,7 @@ export class TripDetailsComponent implements OnInit {
       ],
       activities: "Thrill Rides, Water Park Adventures, Adventure Activities",
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 10 and above.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
     },
     {
@@ -158,31 +158,14 @@ export class TripDetailsComponent implements OnInit {
       ],
       activities: "Art Exploration, Interactive Displays",
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 10 and above.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
     },
-    // {
-    //   id: 9,
-    //   name: 'Jala Vihar',
-    //   imageURL: 'assets/images/jalavihar2.jfif',
-    //   description: "Jala Vihar, a thrilling water park that offers a world of fun and excitement for children. Situated amidst scenic surroundings, Jala Vihar is a perfect destination for children to beat the heat, make a splash, and create unforgettable memories.Jala Vihar features a variety of water-based attractions that cater to children of all ages. From exhilarating water slides and splash pools to lazy rivers and wave pools, there is no shortage of aquatic adventures. Children can experience the thrill of zooming down twisting slides, riding waves, and enjoying the cool, refreshing water.For those seeking a more relaxed experience, Jala Vihar offers calm and gentle pools where children can wade, play, and enjoy the water in a safe and controlled environment. They can engage in water games, float on tubes, and simply have a great time with family and friends.",
-    //   itinerary: [
-    //     'Day 1: Arrival and orientation',
-    //     'Day 2: Visit to the local museum',
-    //     'Day 3: Hiking and outdoor activities',
-    //     'Day 4: Visit to a local school',
-    //     'Day 5: Departure'
-    //   ],
-    //   activities: "Water Slides, Wave Pool, Lazy River, Splash Pools, Adventure Zones",
-    //   pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-    //   ageGroup: 'This trip is suitable for people aged 18 and above.',
-    //   prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
-    // },
     {
       id: 10,
       name: 'Industrial Visit',
-      imageURL: 'assets/images/wonder11',
-      description: 'This is a sample description for Trip 1. It includes all the fun and educational activities that you can expect during the trip.',
+      imageURL: 'assets/images/industrial.avif',
+      description: 'An Industrial Visit provides students a practical perspective of the industry functioning. It provides students with an opportunity to learn practically through interaction, working methods, and employment practices. Industrial Visits provide clarity about various management concepts for students.',
       itinerary: [
         'Day 1: Arrival and orientation',
         'Day 2: Visit to the local museum',
@@ -190,9 +173,26 @@ export class TripDetailsComponent implements OnInit {
         'Day 4: Visit to a local school',
         'Day 5: Departure'
       ],
-      activities: 'Hiking, Visit to a local museum, Interaction with locals, Visit to a local school',
+      activities: 'Guided tour of the industry, Interaction with industry professionals, Observation of industrial processes.',
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 10 and above.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
+      prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
+    },
+    {
+      id: 11,
+      name: 'STEM',
+      imageURL: 'assets/images/stem.png',
+      description: 'STEM (Science, Technology) practical exposure for school students is an immersive and hands-on educational program designed to provide students with real-world experiences and practical applications in the fields of science, technology. This initiative aims to go beyond traditional classroom learning and textbooks, offering students the opportunity to engage in interactive, experiential, and problem-solving activities.',
+      itinerary: [
+        'Day 1: Arrival and orientation',
+        'Day 2: Visit to the local museum',
+        'Day 3: Hiking and outdoor activities',
+        'Day 4: Visit to a local school',
+        'Day 5: Departure'
+      ],
+      activities: 'Enhanced Understanding, Hands-on Learning, Collaboration and Teamwork, Creativity and Innovation',
+      pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
     }
     // Add more trips here

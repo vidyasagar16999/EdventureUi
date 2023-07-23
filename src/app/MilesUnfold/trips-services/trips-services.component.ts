@@ -17,7 +17,7 @@ export class TripsServicesComponent implements OnInit {
       id: 1,
       title: 'Agriculture/Nature Visit',
       description: 'Step into the world of farming and agriculture! Witness the process of food production from sowing seeds to reaping crops. Understand the local farming practices and techniques.',
-      activities: 'Guided tour of a local farm, interaction with farmers, hands-on experience of farming techniques, nature walk, bird-watching, visit to an agricultural research facility.',
+      activities: 'Guided tour of a local farm, hands-on experience of farming techniques, nature walk, visit to an agricultural research facility.',
       groupSize: '80-200',
       duration: '4-5 Hrs',
       ageGroup: '12+',
@@ -36,6 +36,30 @@ export class TripsServicesComponent implements OnInit {
       targetAreas: 'Introduction to film production, creative learning, appreciation of art and culture, team building, and interactive fun.',
       url: 'assets/images/ramoji.jpg',
       alt: 'Image 2 description'
+    },
+    {
+      id: 10,
+      title: 'Industrial Visit',
+      description: 'An Industrial Visit provides students a practical perspective of the industry functioning. It provides students with an opportunity to learn practically through interaction, working methods, and employment practices. Industrial Visits provide clarity about various management concepts for students.',
+      activities: 'Guided tour of the industry, Interaction with industry professionals, Observation of industrial processes.',
+      groupSize: 'Itinerary details for Trip 1.',
+      duration: 'Itinerary details for Trip 1.',
+      ageGroup: 'Age group recommendation for Trip 1.',
+      targetAreas: 'Practical learning, Industry exposure, Understanding of industrial procedures, Knowledge expansion.',
+      url: 'assets/images/industrial.avif',
+      alt: 'Image 1 description'
+    },
+    {
+      id: 11,
+      title: 'STEM',
+      description: 'practical exposure for school students is an immersive and hands-on educational program designed to provide students with real-world experiences and practical applications in the fields of science, technology.',
+      activities: 'Enhanced Understanding, Hands-on Learning, Collaboration and Teamwork, Creativity and Innovation',
+      groupSize: 'Itinerary details for Trip 1.',
+      duration: 'Itinerary details for Trip 1.',
+      ageGroup: 'Age group recommendation for Trip 1.',
+      targetAreas: 'Practical learning, Industry exposure, Understanding of industrial procedures, Knowledge expansion.',
+      url: 'assets/images/stem.png',
+      alt: 'Image 1 description'
     },
     {
       id: 3,
@@ -74,10 +98,22 @@ export class TripsServicesComponent implements OnInit {
       alt: 'Image 1 description'
     },
     {
+      id: 8,
+      title: 'SalarJung Museum',
+      description: 'A visit to Salar Jung Museum, one of the three National Museums of India, will let students explore a broad range of art objects from across the world, spanning multiple centuries. The trip will be an educational journey through the realms of history, culture, and art.',
+      activities: 'Exploration of various exhibits, Interactive Displays',
+      groupSize: 'Itinerary details for Trip 1.',
+      duration: 'Itinerary details for Trip 1.',
+      ageGroup: 'Age group recommendation for Trip 1.',
+      targetAreas: 'History, culture, art appreciation, cognitive development.',
+      url: 'assets/images/salarjung.jpeg',
+      alt: 'Image 1 description'
+    },
+    {
       id: 6,
       title: 'Wonderla',
       description: 'Experience the thrill of cutting-edge rides and attractions at Wonderla, one of the best amusement parks in the country. This trip aims to provide students a fun-filled day where they learn about the science behind the rides, the importance of safety measures.',
-      activities: 'Guided tour of the park, educational session about the science behind the rides, team-building games, fun on various rides and attractions.',
+      activities: 'Guided tour of the park, fun on various rides and attractions.',
       groupSize: 'Itinerary details for Trip 1.',
       duration: 'Itinerary details for Trip 1.',
       ageGroup: 'Age group recommendation for Trip 1.',
@@ -97,42 +133,6 @@ export class TripsServicesComponent implements OnInit {
       url: 'assets/images/mount-opera-star-resort.jpg',
       alt: 'Image 3 description'
     },
-    {
-      id: 8,
-      title: 'SalarJung Museum',
-      description: 'A visit to Salar Jung Museum, one of the three National Museums of India, will let students explore a broad range of art objects from across the world, spanning multiple centuries. The trip will be an educational journey through the realms of history, culture, and art.',
-      activities: 'Guided tours, exploration of various exhibits, interactive sessions.',
-      groupSize: 'Itinerary details for Trip 1.',
-      duration: 'Itinerary details for Trip 1.',
-      ageGroup: 'Age group recommendation for Trip 1.',
-      targetAreas: 'History, culture, art appreciation, cognitive development.',
-      url: 'assets/images/salarjung.jpeg',
-      alt: 'Image 1 description'
-    },
-    // {
-    //   id: 9,
-    //   title: 'Jala Vihar',
-    //   description: 'Jalavihar, located in Hyderabad, is the perfect place for water and amusement games. From thrilling rides to relaxing activities, Jalavihar is filled with fun and offers something for everyone. Students can enjoy the exhilarating water rides, spend time at the wave pool, or participate in the various games available.',
-    //   activities: 'Water rides, wave pool, games and activities, team-building exercises.',
-    //   groupSize: 'Itinerary details for Trip 1.',
-    //   duration: 'Itinerary details for Trip 1.',
-    //   ageGroup: 'Age group recommendation for Trip 1.',
-    //   targetAreas: 'Recreation, team building, fun and entertainment, physical activity.',
-    //   url: 'assets/images/jalavihar2.jfif',
-    //   alt: 'Image 3 description'
-    // },
-    {
-      id: 10,
-      title: 'Industrial Visit',
-      description: 'An Industrial Visit provides students a practical perspective of the industry functioning. It provides students with an opportunity to learn practically through interaction, working methods, and employment practices. Industrial Visits provide clarity about various management concepts for students.',
-      activities: 'Guided tour of the industry, Interaction with industry professionals, Observation of industrial processes.',
-      groupSize: 'Itinerary details for Trip 1.',
-      duration: 'Itinerary details for Trip 1.',
-      ageGroup: 'Age group recommendation for Trip 1.',
-      targetAreas: 'Practical learning, Industry exposure, Understanding of industrial procedures, Knowledge expansion.',
-      url: 'assets/images/ramoji film',
-      alt: 'Image 1 description'
-    }
     // Add more trip objects with their details here
   ];
 }

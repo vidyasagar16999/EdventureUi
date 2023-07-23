@@ -45,10 +45,6 @@ export class GalleryComponent implements OnInit {
       url: 'assets/images/salarjung.jpeg',
       alt: 'SalarJung Museum'
     },
-    {
-      url: 'assets/images/jalavihar2.jfif',
-      alt: 'Jala Vihar'
-    },
     // Add more gallery item objects with their details here
   ];
 
