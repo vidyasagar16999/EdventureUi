@@ -51,7 +51,7 @@ export class TripsServicesComponent implements OnInit {
     },
     {
       id: 11,
-      title: 'STEM',
+      title: 'Science and Technology',
       description: 'practical exposure for school students is an immersive and hands-on educational program designed to provide students with real-world experiences and practical applications in the fields of science, technology.',
       activities: 'Enhanced Understanding, Hands-on Learning, Collaboration and Teamwork, Creativity and Innovation',
       groupSize: 'Itinerary details for Trip 1.',
