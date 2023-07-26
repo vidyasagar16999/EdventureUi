@@ -28,7 +28,7 @@
 
     img {
       width: 100%;
-      height: 130%;
+      height: 310px;
       object-fit: cover;
     }
   }
@@ -97,5 +97,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    .trip-image {
+      img{
+        height: auto;
+      }
+    }
   }
 }

@@ -13,6 +13,12 @@
   z-index: 1000;
   width: 100%;
 }
+.navbar-brand {
+  img {
+    width: 100%;
+    height: 70px;
+  }
+}
   .navst{
     width: 100%;
     padding-top: 0px;
@@ -57,7 +63,15 @@
 
   .navbar {
     position: relative;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .navbar-brand{
+      img {
+        height: auto;
+        padding: 0% 4%;
+      }
+    }
     .hamburger-menu {
       display: block;
       padding-bottom: 3%;
