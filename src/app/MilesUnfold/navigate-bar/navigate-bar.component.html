@@ -8,6 +8,8 @@
   <button class="hamburger-menu" (click)="toggleMenu()">
     <i class="fas fa-bars"></i>
   </button>
+</div>
+<div>
   <ul class="nav-links" [ngClass]="{'show-menu': showMenu}">
     <li><a routerLink="/" routerLinkActive="active" (click)="closeMenu()">Homepage</a></li>
     <li><a routerLink="/trips-services" routerLinkActive="active" (click)="closeMenu()">Trips/Services</a></li>
