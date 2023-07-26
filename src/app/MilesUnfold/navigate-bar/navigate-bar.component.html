@@ -1,5 +1,5 @@
 <div class="navbar" style="padding-left: 2%;">
-<!-- style="padding-right: 1%;padding-left: 2%;"> -->
+<div class="navbar1">
   <div class="navbar-brand" style = "margin-right: 0rem;">
     <a href="" class="navst">
       <img src="assets/images/milesunfold.png" alt="">
@@ -8,6 +8,7 @@
   <button class="hamburger-menu" (click)="toggleMenu()">
     <i class="fas fa-bars"></i>
   </button>
+</div>
   <ul class="nav-links" [ngClass]="{'show-menu': showMenu}">
     <li><a routerLink="/" routerLinkActive="active" (click)="closeMenu()">Homepage</a></li>
     <li><a routerLink="/trips-services" routerLinkActive="active" (click)="closeMenu()">Trips/Services</a></li>
