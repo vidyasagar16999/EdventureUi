@@ -23,3 +23,17 @@
   min-width: 0 !important;
   background-position: 50% 0px;
 }
+
+@media screen and (max-width: 768px) { 
+  .mission-statement {
+    background-image: url('/assets/images/mission-main.webp');
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    width:auto !important;
+    background-position: 50% 0px;
+    p {
+      font-size: 19px;
+      line-height: 1.5;
+    }
+  }
+}
