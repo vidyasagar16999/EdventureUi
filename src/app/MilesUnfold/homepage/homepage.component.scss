@@ -67,7 +67,7 @@
   }
 }
 .hero {
-  background-image: url('/assets/images/home22.jpg');
+  background-image: url('/assets/images/home4.jpg');
   background-size: cover;
   background-position: center;
   height: 85vh; // this makes the hero section cover the full viewport height
@@ -140,13 +140,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem;
+  padding: 2rem;
   //margin: 2%;
   margin-bottom: 0%;
   background-color: lavender;
 
   .about-us-image {
-    flex: 1;
+    flex: 0.7;
     padding-right: 2rem;
 
     img {
@@ -156,8 +156,21 @@
     }
   }
 
+  .whatgetimage{
+    flex: 0.4;
+    //padding-right: 2rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
   .about-us-text {
-    flex: 2;
+    flex: 1;
+    //margin-right: 2rem;
+    text-align: center;
   }
   .learn-more-btn {
     background-color: #3498db;
@@ -232,6 +245,13 @@
     .learn-more-btn {
       padding: 0.8rem 1.5rem;
       font-size: 1rem;
+     // margin-bottom: 2rem;
+    }
+    .whatgetimage{
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }

@@ -164,7 +164,7 @@ export class TripDetailsComponent implements OnInit {
     {
       id: 10,
       name: 'Industrial Visit',
-      imageURL: 'assets/images/industrial.avif',
+      imageURL: 'assets/images/industrial.jpg',
       description: 'An Industrial Visit provides students a practical perspective of the industry functioning. It provides students with an opportunity to learn practically through interaction, working methods, and employment practices. Industrial Visits provide clarity about various management concepts for students.',
       itinerary: [
         'Day 1: Arrival and orientation',

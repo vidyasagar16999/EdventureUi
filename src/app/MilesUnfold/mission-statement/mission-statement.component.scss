@@ -27,9 +27,11 @@
 @media screen and (max-width: 768px) { 
   .mission-statement {
     background-image: url('/assets/images/mission-main.webp');
+    background-repeat: no-repeat;
     background-attachment: fixed !important;
     background-size: cover !important;
     width:auto !important;
+    min-width: 0 !important;
     background-position: 50% 0px;
     p {
       font-size: 19px;
