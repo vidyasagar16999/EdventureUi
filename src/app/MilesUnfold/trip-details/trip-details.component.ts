@@ -190,7 +190,7 @@ export class TripDetailsComponent implements OnInit {
     {
       id: 11,
       name: 'Science and Technology',
-      imageURL: 'assets/images/stem.png',
+      imageURL: 'assets/images/stem.jpg',
       description: 'Science, Technology practical exposure for school students is an immersive and hands-on educational program designed to provide students with real-world experiences and practical applications in the fields of science, technology. This initiative aims to go beyond traditional classroom learning and textbooks, offering students the opportunity to engage in interactive, experiential, and problem-solving activities.',
       itinerary: [
         'Day 1: Arrival and orientation',

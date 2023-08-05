@@ -58,7 +58,7 @@ export class TripsServicesComponent implements OnInit {
       duration: 'Itinerary details for Trip 1.',
       ageGroup: 'Age group recommendation for Trip 1.',
       targetAreas: 'Practical learning, Industry exposure, Understanding of industrial procedures, Knowledge expansion.',
-      url: 'assets/images/stem.png',
+      url: 'assets/images/stem.jpg',
       alt: 'Image 1 description'
     },
     {
