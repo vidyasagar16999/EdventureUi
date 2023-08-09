@@ -93,6 +93,11 @@ html {
 
   .about-us-text {
     flex: 2;
+    p{
+      text-align: justify;
+      hyphens: auto;
+      word-spacing: 1px;
+    }
   }
 }
 
@@ -129,6 +134,11 @@ html {
 
     .about-us-text {
       text-align: center;
+      p{
+        text-align: justify;
+        hyphens: auto;
+        word-spacing: 1px;
+      }
     }
   }
 }

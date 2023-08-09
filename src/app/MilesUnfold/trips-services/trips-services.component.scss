@@ -50,6 +50,8 @@
       line-height: 1.5;
       margin-bottom: 1rem;
       text-align: justify;
+      hyphens: auto;
+      word-spacing: 1px;
     }
 
     ul {
@@ -61,6 +63,8 @@
         color: #34495e;
         line-height: 1.5;
         text-align: justify;
+        hyphens: auto;
+        word-spacing: 1px;
       }
     }
   }
@@ -106,6 +110,13 @@
       img{
         height: auto;
       }
+    }
+  }
+
+  .trip-details{
+    li {
+        hyphens: auto;
+        word-spacing: 1px;
     }
   }
 

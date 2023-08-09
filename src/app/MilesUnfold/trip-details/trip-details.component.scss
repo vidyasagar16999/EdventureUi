@@ -41,6 +41,8 @@
         line-height: 1.5em;
         margin-top: 10px;
         text-align: justify;
+        hyphens: auto;
+        word-spacing: 1px;
       }
     }
   
@@ -81,6 +83,8 @@
         p, ul {
           font-size: 0.9em;
           text-align: justify;
+          hyphens: auto;
+         word-spacing: 1px;
         }
       }
   
