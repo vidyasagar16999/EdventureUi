@@ -182,7 +182,7 @@ export class TripDetailsComponent implements OnInit {
         'Day 4: Visit to a local school',
         'Day 5: Departure'
       ],
-      activities: 'Hands-on preparation of candle crayons, chocolate, herbal, detergant powder, soap preparation.',
+      activities: 'Hands-on preparation of candle crayons, chocolate, herbal, detergant powder, soap preparation, Dhoop Making.',
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
       ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
@@ -199,7 +199,7 @@ export class TripDetailsComponent implements OnInit {
         'Day 4: Visit to a local school',
         'Day 5: Departure'
       ],
-      activities: 'Enhanced Understanding, Hands-on Learning of Solar Panel, SCience Park',
+      activities: 'Enhanced Understanding, Hands-on Learning of Solar Panel, Water TDS, Science Park',
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
       ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',

@@ -82,6 +82,11 @@
   }
 }
 
+.upcoming {
+  font-size: medium;
+  color: blueviolet;
+  padding: 0rem 5rem;
+}
 
 @media (max-width: 767px) {
   .container {
@@ -102,5 +107,11 @@
         height: auto;
       }
     }
+  }
+
+  .upcoming {
+    font-size: medium;
+    color: blueviolet;
+    padding: 0rem 1rem;
   }
 }
