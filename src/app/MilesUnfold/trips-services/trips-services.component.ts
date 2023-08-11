@@ -53,7 +53,7 @@ export class TripsServicesComponent implements OnInit {
       id: 11,
       title: 'Science and Technology',
       description: 'practical exposure for school students is an immersive and hands-on educational program designed to provide students with real-world experiences and practical applications in the fields of science, technology.',
-      activities: 'Enhanced Understanding, Hands-on Learning of Solar Panel, Water TDS, Science Park',
+      activities: 'Enhanced Understanding, Hands-on Learning of Solar lab, Science Park Visit, Scinece Activities that includes Acid and Base, TDS Water testing, Volcano',
       groupSize: 'Itinerary details for Trip 1.',
       duration: 'Itinerary details for Trip 1.',
       ageGroup: 'Age group recommendation for Trip 1.',
