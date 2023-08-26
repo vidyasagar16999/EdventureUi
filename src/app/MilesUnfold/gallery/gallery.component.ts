@@ -53,6 +53,74 @@ export class GalleryComponent implements OnInit {
       url: 'assets/images/chocolate1.jpg',
       alt: 'factory'
     },
+    {
+      url: 'assets/images/farm1.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/farm2.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/farm3.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/farm4.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/farm5.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/farm6.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/candle.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/carrot.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/chicken.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/animals.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/physics exper.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/physics.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/physics2.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/seeds.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/soap.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/soap3.jpg',
+      alt: 'factory'
+    },
+    {
+      url: 'assets/images/soap1.jpg',
+      alt: 'factory'
+    },
     // {
     //   url: 'assets/images/ramoji.jpg',
     //   alt: 'Ramoji Film City'
