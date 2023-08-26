@@ -14,10 +14,11 @@
     line-height: 1.5;
   }
 
-  background-image: url('/assets/images/mission-main.webp');
+  // background-image: url('/assets/images/mission-main.webp');
+  background-image: url('/assets/images/backgroundpl.jpg');
   background-repeat: no-repeat;
   background-size: cover !important;
-  background-attachment: fixed !important;
+  // background-attachment: fixed !important;
   padding: 6rem 2rem; // Add padding to ensure the content is not cut off
   width:auto !important; // Make sure the container covers the entire viewport height
   min-width: 0 !important;
@@ -26,9 +27,10 @@
 
 @media screen and (max-width: 768px) { 
   .mission-statement {
-    background-image: url('/assets/images/mission-main.webp');
+    // background-image: url('/assets/images/mission-main.webp');
+    background-image: url('/assets/images/backgroundpl.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed !important;
+    // background-attachment: fixed !important;
     background-size: cover !important;
     width:auto !important;
     min-width: 0 !important;
