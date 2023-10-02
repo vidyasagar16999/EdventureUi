@@ -28,7 +28,7 @@ export class TripDetailsComponent implements OnInit {
     {
       id: 1,
       name: 'Agriculture/Nature Visit',
-      imageURL: 'assets/images/nature.jpg',
+      imageURL: 'assets/images/farm33.jpg',
       description: "An educational trip for school students offers a diverse and engaging experience centered around agriculture and farming practices. The day begins with an enlightening session on Domestic Animals Feeding and Petting, where students can interact with various farm animals, learning about their care and importance in agriculture. Next, they embark on an exciting Farm Train Ride, exploring the vast fields and gaining insights into the farming landscape. The students get hands-on experience with crucial agricultural tasks like Paddy Transplantation and Sowing, understanding the meticulous process of planting crops and their significance in food production. They also get to participate in Seed Testing, learning about the quality assessment of seeds before planting.",
       description1: "Moving on to the vital aspect of Soil Preparation, students learn about soil health, its importance, and the methods used to optimize it for productive farming. They further discover the wonders of Natural Pest Preparation and Natural Compost Preparation, witnessing eco-friendly approaches to pest control and sustainable farming practices.The educational trip offers a chance to witness the various stages of agricultural harvesting with demonstrations on Available Harvesting techniques. Additionally, they get an opportunity to observe traditional Rice, Oil, and Flour Mills in action, witnessing the processing of grains and its significance in food production.",
       description2: "The day concludes with an interactive session on Milk Toning, where students learn about dairy farming, milk processing, and its journey from farm to table. Moreover, an Agri Tools Expo showcases the innovative tools and equipment used in modern agriculture.Throughout the trip, students actively participate in Weeding, understanding the importance of removing unwanted plants that compete for nutrients with the main crops. This enriching experience instills a deeper understanding of agriculture, fostering appreciation for the hard work of farmers and the importance of sustainable food production.",
@@ -40,24 +40,6 @@ export class TripDetailsComponent implements OnInit {
         'Day 5: Departure'
       ],
       activities: 'Domestic Animals Feeding and Petting, Farm Train Ride, Paddy Transplantation, Sowing, Seed Testing, Soil Preparation, Natural Pest Preparation, Natural Compost Preparation, Available Harvesting, Rice Mill, Oil Mill, Flour Mill, Milk Tonning, Agri Tools Expo, Weeding.',
-      pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 8 and above.',
-      prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
-    },
-    {
-      id: 2,
-      name: 'Ramoji Film City',
-      imageURL: 'assets/images/ramoji.jpg',
-      description: "Ramoji Film City, a mesmerizing world of entertainment and creativity that offers an unforgettable experience for children. Spread across acres of breathtaking landscape, Ramoji Film City is not only the largest film studio complex in the world but also a hub of exciting activities, thrilling adventures, and interactive learning. At Ramoji Film City, children will be immersed in the magical world of cinema. They can explore the various film sets, captivating gardens, and stunning landscapes that have been the backdrop for countless blockbuster movies.",
-      description1: "From ancient palaces to bustling streets, every corner of Ramoji Film City offers a glimpse into the enchanting world of filmmaking. Additionally, Ramoji Film City boasts an array of exciting rides and attractions. Children can hop on thrilling roller coasters, splash around in water parks, and enjoy exciting 3D and 4D shows. They can embark on adventurous tours, exploring the city's iconic landmarks and getting behind-the-scenes glimpses of film production. The eco-zone within the film city offers nature trails, butterfly parks, and interactive exhibits that teach children about the importance of environmental conservation.",
-      itinerary: [
-        'Day 1: Arrival and orientation',
-        'Day 2: Visit to the local museum',
-        'Day 3: Hiking and outdoor activities',
-        'Day 4: Visit to a local school',
-        'Day 5: Departure'
-      ],
-      activities: "Guided tour of film sets, movie magic show, amusement rides at Fundustan, adventure activities, live shows, and interactive entertainment zones.",
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
       ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
@@ -133,24 +115,24 @@ export class TripDetailsComponent implements OnInit {
       ageGroup: 'This trip is suitable for people aged 10 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
     },
-    {
-      id: 7,
-      name: 'Mount-Opera',
-      imageURL: 'assets/images/mount-opera-star-resort.jpg',
-      description: "Mount Opera, a thrilling recreational destination that promises an unforgettable day of fun and excitement for children. Nestled amidst scenic landscapes, this amusement park offers a wide range of activities and attractions that cater to the adventurous spirit and boundless energy of young visitors.Mount Opera is home to a variety of exhilarating rides and attractions that will keep children entertained for hours.",
-      description1: "From thrilling roller coasters and swinging pirate ships to spinning carousels and bumper cars, there is something for every age group and level of thrill-seeking.Water lovers can cool off and make a splash in the water park at Mount Opera. With exciting water slides, wave pools, lazy rivers, and splash zones, children can enjoy a refreshing aquatic adventure and beat the heat in a fun-filled environment.",
-      itinerary: [
-        'Day 1: Arrival and orientation',
-        'Day 2: Visit to the local museum',
-        'Day 3: Hiking and outdoor activities',
-        'Day 4: Visit to a local school',
-        'Day 5: Departure'
-      ],
-      activities: "Thrill Rides, Water Park Adventures, Adventure Activities",
-      pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 7 and above.',
-      prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
-    },
+    // {
+    //   id: 7,
+    //   name: 'Mount-Opera',
+    //   imageURL: 'assets/images/mount-opera-star-resort.jpg',
+    //   description: "Mount Opera, a thrilling recreational destination that promises an unforgettable day of fun and excitement for children. Nestled amidst scenic landscapes, this amusement park offers a wide range of activities and attractions that cater to the adventurous spirit and boundless energy of young visitors.Mount Opera is home to a variety of exhilarating rides and attractions that will keep children entertained for hours.",
+    //   description1: "From thrilling roller coasters and swinging pirate ships to spinning carousels and bumper cars, there is something for every age group and level of thrill-seeking.Water lovers can cool off and make a splash in the water park at Mount Opera. With exciting water slides, wave pools, lazy rivers, and splash zones, children can enjoy a refreshing aquatic adventure and beat the heat in a fun-filled environment.",
+    //   itinerary: [
+    //     'Day 1: Arrival and orientation',
+    //     'Day 2: Visit to the local museum',
+    //     'Day 3: Hiking and outdoor activities',
+    //     'Day 4: Visit to a local school',
+    //     'Day 5: Departure'
+    //   ],
+    //   activities: "Thrill Rides, Water Park Adventures, Adventure Activities",
+    //   pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
+    //   ageGroup: 'This trip is suitable for people aged 7 and above.',
+    //   prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
+    // },
     {
       id: 8,
       name: 'SalarJung Museum',
@@ -171,8 +153,8 @@ export class TripDetailsComponent implements OnInit {
     },
     {
       id: 10,
-      name: 'Industrial Visit',
-      imageURL: 'assets/images/industrial.jpg',
+      name: 'Industrial Activities(Hands-on)',
+      imageURL: 'assets/images/soap.jpg',
       description: "An Industrial Visit provides students a practical perspective of the industry functioning. children will have the opportunity to engage in a delightful array of hands-on activities. They will craft vibrant and scented candle crayons, exploring the fascinating world of colors and artistry. As they mold and shape delectable chocolates, they will discover the joy of culinary creativity. In the realm of herbal concoctions, young minds will delve into the art of making soothing and fragrant potions, learning about the wonders of nature's remedies.",
       description1: "The magic of chemistry will come alive as they concoct their own detergent powder, understanding the science behind cleaning and hygiene. Finally, through soap preparation, they will unleash their imaginations, crafting unique and personalized soaps that carry their individual flair. Our workshops aim to inspire curiosity, spark creativity, and empower children to become masters of their own creations, fostering a love for learning that will last a lifetime.",
       itinerary: [
@@ -190,7 +172,7 @@ export class TripDetailsComponent implements OnInit {
     {
       id: 11,
       name: 'Science and Technology',
-      imageURL: 'assets/images/stem.jpg',
+      imageURL: 'assets/images/science.jpg',
       description: 'Science, Technology practical exposure for school students is an immersive and hands-on educational program designed to provide students with real-world experiences and practical applications in the fields of science, technology. This initiative aims to go beyond traditional classroom learning and textbooks, offering students the opportunity to engage in interactive, experiential, and problem-solving activities.',
       itinerary: [
         'Day 1: Arrival and orientation',
@@ -203,7 +185,66 @@ export class TripDetailsComponent implements OnInit {
       pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
       ageGroup: 'This trip is suitable for people aged 8 and above.',
       prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
-    }
+    },
+    {
+      id: 13,
+      name: 'Masqati Dairy Farm',
+      imageURL: 'assets/images/masqati1.JPG',
+      description: 'Step into the wholesome world of the Masqati dairy farm on a memorable school trip. Experience the journey of fresh milk, from grazing pastures to the final bottled product. Learn about modern milking techniques, and understand the rigorous quality checks in place. This visit offers students a unique opportunity to appreciate the efforts behind their daily glass of milk. At Masqati, it is more than just dairy; it is a lesson in dedication, quality, and nature bounty.',
+      itinerary: [
+        'Day 1: Arrival and orientation',
+        'Day 2: Visit to the local museum',
+        'Day 3: Hiking and outdoor activities',
+        'Day 4: Visit to a local school',
+        'Day 5: Departure'
+      ],
+      activities: 'Walk through different units, Milk packaging Unit, Ghee Preparation, Flavoured milk like Badam (almond) milk is prepared and then bottled',
+      pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
+      prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
+    },
+    {
+      id: 14,
+      title: 'Pochampally',
+      description: 'Join us on a trip to Pochampally, a village famous for its beautiful hand-woven sarees. Watch local craftsmen create colorful patterns on cloth using age-old techniques. Learn how a simple thread turns into a stunning saree that many people love to wear. It is a fun way to see art in action and understand the hard work behind every piece of cloth.',
+      activities: 'Handloom, weaving, dying, bleaching & take a tour of the weaving museum',
+      groupSize: 'Itinerary details for Trip 1.',
+      duration: 'Itinerary details for Trip 1.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
+      targetAreas: 'Introduction to film production, creative learning, appreciation of art and culture, team building, and interactive fun.',
+      imageURL: 'assets/images/pochampally.jpg',
+      alt: 'Image 2 description'
+    },
+    {
+      id: 2,
+      name: 'Ramoji Film City',
+      imageURL: 'assets/images/ramoji.jpg',
+      description: "Ramoji Film City, a mesmerizing world of entertainment and creativity that offers an unforgettable experience for children. Spread across acres of breathtaking landscape, Ramoji Film City is not only the largest film studio complex in the world but also a hub of exciting activities, thrilling adventures, and interactive learning. At Ramoji Film City, children will be immersed in the magical world of cinema. They can explore the various film sets, captivating gardens, and stunning landscapes that have been the backdrop for countless blockbuster movies.",
+      description1: "From ancient palaces to bustling streets, every corner of Ramoji Film City offers a glimpse into the enchanting world of filmmaking. Additionally, Ramoji Film City boasts an array of exciting rides and attractions. Children can hop on thrilling roller coasters, splash around in water parks, and enjoy exciting 3D and 4D shows. They can embark on adventurous tours, exploring the city's iconic landmarks and getting behind-the-scenes glimpses of film production. The eco-zone within the film city offers nature trails, butterfly parks, and interactive exhibits that teach children about the importance of environmental conservation.",
+      itinerary: [
+        'Day 1: Arrival and orientation',
+        'Day 2: Visit to the local museum',
+        'Day 3: Hiking and outdoor activities',
+        'Day 4: Visit to a local school',
+        'Day 5: Departure'
+      ],
+      activities: "Guided tour of film sets, movie magic show, amusement rides at Fundustan, adventure activities, live shows, and interactive entertainment zones.",
+      pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
+      ageGroup: 'This trip is suitable for people aged 8 and above.',
+      prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
+    },
+    {
+      id: 12,
+      title: 'Parle Factory Visit',
+      description: 'Embark on a delightful journey to the Parle biscuit factory with your schoolmates. Witness the mesmerizing transformation of simple ingredients into your favorite Parle biscuits. From mixing and baking to packaging, get an exclusive behind-the-scenes look at every step. Engage in interactive sessions, understand the art of biscuit-making, and maybe even get a taste of freshly baked treats! It is not just a visit; it is an edible education.',
+      activities: 'Making dough by mixing ingredients, Process of fermentation, Giving the shape, Baking raw biscuits, Testing, packaging and supply',
+      groupSize: 'Itinerary details for Trip 1.',
+      duration: 'Itinerary details for Trip 1.',
+      ageGroup: 'This trip is suitable for people aged 8 and above',
+      targetAreas: 'Introduction to film production, creative learning, appreciation of art and culture, team building, and interactive fun.',
+      imageURL: 'assets/images/parle.png',
+      alt: 'Image 2 description'
+    },
     // Add more trips here
   ];
 }

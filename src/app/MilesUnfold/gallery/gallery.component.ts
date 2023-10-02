@@ -121,6 +121,18 @@ export class GalleryComponent implements OnInit {
       url: 'assets/images/soap1.jpg',
       alt: 'factory'
     },
+    {
+      url: 'assets/images/pochampally.jpg',
+      alt: 'pochampally'
+    },
+    {
+      url: 'assets/images/pochampally11.jpeg',
+      alt: 'pochampally'
+    },
+    {
+      url: 'assets/images/pochampally12.jpeg',
+      alt: 'pochampally'
+    },
     // {
     //   url: 'assets/images/ramoji.jpg',
     //   alt: 'Ramoji Film City'

@@ -21,8 +21,8 @@
     overflow: hidden;
 
     img {
-      width: 100%;
-      height: 100%;
+      width: 265px;
+      height: 265px;
       object-fit: cover;
       transition: transform 0.3s;
 
@@ -38,6 +38,21 @@
   .gallery-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 0.5rem;
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+  
+      img {
+        width: 100%;
+       // height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s;
+  
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
   }
 
   .container {
