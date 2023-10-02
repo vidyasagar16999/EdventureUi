@@ -22,7 +22,7 @@ export class TripsServicesComponent implements OnInit {
       duration: '4 Hrs',
       ageGroup: '8+',
       targetAreas: 'Understanding sustainable farming practices, appreciation of nature and biodiversity, team-building, relaxation and stress relief.',
-      url: 'assets/images/farm3.jpg',
+      url: 'assets/images/nature.jpg',
       alt: 'Image 1 description'
     },
     {
