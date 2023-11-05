@@ -13,6 +13,18 @@ export class GalleryComponent implements OnInit {
   }
 
   galleryItems = [
+    // { 
+    //   url: 'assets/images/msr trip1.jpg',
+    //   alt: 'msr trip Visit'
+    // },
+    {
+      url: 'assets/images/msr trip33.jpg',
+      alt: 'msr trip Visit'
+    },
+    {
+      url: 'assets/images/msr trip2.jpg',
+      alt: 'msr trip Visit'
+    },
     {
       url: 'assets/images/nature.jpg',
       alt: 'Agriculture/Nature Visit'
@@ -29,10 +41,10 @@ export class GalleryComponent implements OnInit {
       url: 'assets/images/zoo1.jpg',
       alt: 'Nehru Zoological Park'
     },
-    {
-      url: 'assets/images/mount-opera-star-resort.jpg',
-      alt: 'Mount-Opera'
-    },
+    // {
+    //   url: 'assets/images/mount-opera-star-resort.jpg',
+    //   alt: 'Mount-Opera'
+    // },
     {
       url: 'assets/images/salarjung.jpeg',
       alt: 'SalarJung Museum'
@@ -131,6 +143,14 @@ export class GalleryComponent implements OnInit {
     },
     {
       url: 'assets/images/pochampally12.jpeg',
+      alt: 'pochampally'
+    },
+    {
+      url: 'assets/images/sericulture.jpeg',
+      alt: 'pochampally'
+    },
+    {
+      url: 'assets/images/ricecluster.jpeg',
       alt: 'pochampally'
     },
     // {

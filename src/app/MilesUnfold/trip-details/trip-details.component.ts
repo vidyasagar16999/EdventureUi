@@ -215,24 +215,24 @@ export class TripDetailsComponent implements OnInit {
       imageURL: 'assets/images/pochampally.jpg',
       alt: 'Image 2 description'
     },
-    {
-      id: 2,
-      name: 'Ramoji Film City',
-      imageURL: 'assets/images/ramoji.jpg',
-      description: "Ramoji Film City, a mesmerizing world of entertainment and creativity that offers an unforgettable experience for children. Spread across acres of breathtaking landscape, Ramoji Film City is not only the largest film studio complex in the world but also a hub of exciting activities, thrilling adventures, and interactive learning. At Ramoji Film City, children will be immersed in the magical world of cinema. They can explore the various film sets, captivating gardens, and stunning landscapes that have been the backdrop for countless blockbuster movies.",
-      description1: "From ancient palaces to bustling streets, every corner of Ramoji Film City offers a glimpse into the enchanting world of filmmaking. Additionally, Ramoji Film City boasts an array of exciting rides and attractions. Children can hop on thrilling roller coasters, splash around in water parks, and enjoy exciting 3D and 4D shows. They can embark on adventurous tours, exploring the city's iconic landmarks and getting behind-the-scenes glimpses of film production. The eco-zone within the film city offers nature trails, butterfly parks, and interactive exhibits that teach children about the importance of environmental conservation.",
-      itinerary: [
-        'Day 1: Arrival and orientation',
-        'Day 2: Visit to the local museum',
-        'Day 3: Hiking and outdoor activities',
-        'Day 4: Visit to a local school',
-        'Day 5: Departure'
-      ],
-      activities: "Guided tour of film sets, movie magic show, amusement rides at Fundustan, adventure activities, live shows, and interactive entertainment zones.",
-      pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
-      ageGroup: 'This trip is suitable for people aged 8 and above.',
-      prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
-    },
+    // {
+    //   id: 2,
+    //   name: 'Ramoji Film City',
+    //   imageURL: 'assets/images/ramoji.jpg',
+    //   description: "Ramoji Film City, a mesmerizing world of entertainment and creativity that offers an unforgettable experience for children. Spread across acres of breathtaking landscape, Ramoji Film City is not only the largest film studio complex in the world but also a hub of exciting activities, thrilling adventures, and interactive learning. At Ramoji Film City, children will be immersed in the magical world of cinema. They can explore the various film sets, captivating gardens, and stunning landscapes that have been the backdrop for countless blockbuster movies.",
+    //   description1: "From ancient palaces to bustling streets, every corner of Ramoji Film City offers a glimpse into the enchanting world of filmmaking. Additionally, Ramoji Film City boasts an array of exciting rides and attractions. Children can hop on thrilling roller coasters, splash around in water parks, and enjoy exciting 3D and 4D shows. They can embark on adventurous tours, exploring the city's iconic landmarks and getting behind-the-scenes glimpses of film production. The eco-zone within the film city offers nature trails, butterfly parks, and interactive exhibits that teach children about the importance of environmental conservation.",
+    //   itinerary: [
+    //     'Day 1: Arrival and orientation',
+    //     'Day 2: Visit to the local museum',
+    //     'Day 3: Hiking and outdoor activities',
+    //     'Day 4: Visit to a local school',
+    //     'Day 5: Departure'
+    //   ],
+    //   activities: "Guided tour of film sets, movie magic show, amusement rides at Fundustan, adventure activities, live shows, and interactive entertainment zones.",
+    //   pricing: 'The price for Trip 1 is $1000. This includes accommodation, meals, local transport, and all activities. Flights are not included.',
+    //   ageGroup: 'This trip is suitable for people aged 8 and above.',
+    //   prerequisites: 'No prior experience is needed. However, a moderate level of fitness is required for the hiking activity.',
+    // },
     {
       id: 12,
       title: 'Parle Factory Visit',
@@ -243,6 +243,30 @@ export class TripDetailsComponent implements OnInit {
       ageGroup: 'This trip is suitable for people aged 8 and above',
       targetAreas: 'Introduction to film production, creative learning, appreciation of art and culture, team building, and interactive fun.',
       imageURL: 'assets/images/parle.png',
+      alt: 'Image 2 description'
+    },
+    {
+      id: 15,
+      title: 'Sericulture',
+      description: 'Sericulture is the process of growing silkworms and harvesting their silk.',
+      activities: 'Moriculture, Silkworm rearing, Silk reeling',
+      groupSize: 'Itinerary details for Trip 1.',
+      duration: 'Itinerary details for Trip 1.',
+      ageGroup: 'This trip is suitable for people aged 8 and above',
+      targetAreas: 'Introduction to film production, creative learning, appreciation of art and culture, team building, and interactive fun.',
+      imageURL: 'assets/images/sericulture.jpeg',
+      alt: 'Image 2 description'
+    },
+    {
+      id: 16,
+      title: 'South Indias Biggest Rice Cluster',
+      description: 'Rice Milling is the process of removing the husk and bran layers from the paddy and producing a white rice kernel that is free of impurities.',
+      activities: 'Moriculture, Silkworm rearing, Silk reeling',
+      groupSize: 'Itinerary details for Trip 1.',
+      duration: 'Itinerary details for Trip 1.',
+      ageGroup: 'This trip is suitable for people aged 8 and above',
+      targetAreas: 'Introduction to film production, creative learning, appreciation of art and culture, team building, and interactive fun.',
+      imageURL: 'assets/images/ricecluster.jpeg',
       alt: 'Image 2 description'
     },
     // Add more trips here

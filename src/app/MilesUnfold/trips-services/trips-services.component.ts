@@ -145,16 +145,41 @@ export class TripsServicesComponent implements OnInit {
       url: 'assets/images/bmscience.jfif',
       alt: 'Image 1 description'
     },
+    // {
+    //   id: 2,
+    //   title: 'Ramoji Film City',
+    //   description: 'Dive into a world of excitement and learning at Ramoji Film City, the world’s largest integrated film city.',
+    //   activities: 'Guided tour of film sets, movie magic show, amusement rides at Fundustan, adventure activities, live shows, and interactive entertainment zones.',
+    //   groupSize: 'Itinerary details for Trip 1.',
+    //   duration: 'Itinerary details for Trip 1.',
+    //   ageGroup: 'Age group recommendation for Trip 1.',
+    //   targetAreas: 'Introduction to film production, creative learning, appreciation of art and culture, team building, and interactive fun.',
+    //   url: 'assets/images/ramoji.jpg',
+    //   alt: 'Image 2 description'
+    // },
+    
     {
-      id: 2,
-      title: 'Ramoji Film City',
-      description: 'Dive into a world of excitement and learning at Ramoji Film City, the world’s largest integrated film city.',
-      activities: 'Guided tour of film sets, movie magic show, amusement rides at Fundustan, adventure activities, live shows, and interactive entertainment zones.',
+      id: 15,
+      title: 'Sericulture',
+      description: 'Sericulture is the process of growing silkworms and harvesting their silk.',
+      activities: 'Moriculture, Silkworm rearing, Silk reeling',
       groupSize: 'Itinerary details for Trip 1.',
       duration: 'Itinerary details for Trip 1.',
       ageGroup: 'Age group recommendation for Trip 1.',
-      targetAreas: 'Introduction to film production, creative learning, appreciation of art and culture, team building, and interactive fun.',
-      url: 'assets/images/ramoji.jpg',
+      targetAreas: 'Physics, engineering principles, team building, safety awareness.',
+      url: 'assets/images/sericulture.jpeg',
+      alt: 'Image 2 description'
+    },
+    {
+      id: 16,
+      title: 'South Indias Biggest Rice Cluster',
+      description: 'Rice Milling is the process of removing the husk and bran layers from the paddy and producing a white rice kernel that is free of impurities.',
+      activities: 'Steam Process, Boil Process, Power generation from Husk',
+      groupSize: 'Itinerary details for Trip 1.',
+      duration: 'Itinerary details for Trip 1.',
+      ageGroup: 'Age group recommendation for Trip 1.',
+      targetAreas: 'Physics, engineering principles, team building, safety awareness.',
+      url: 'assets/images/ricecluster.jpeg',
       alt: 'Image 2 description'
     },
     {
