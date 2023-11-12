@@ -66,6 +66,29 @@
     background-color: #2980b9;
   }
 }
+ngb-carousel {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  padding-top: 40px;
+}
+
+ngb-carousel img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  padding-top: 40px;
+}
+
+/* Additional styles for navigation arrows and indicators */
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%);
+}
+
+.carousel-indicators li {
+  background-color: black;
+}
+
 .hero {
   background-image: url('/assets/images/home4.jpg');
   background-size: cover;
@@ -213,6 +236,20 @@
       padding: 10px 15px;
       font-size: 1em;
     }
+  }
+
+  ngb-carousel {
+    display: block;
+    width: 100%;
+    height: 65vh;
+    padding-top: 0px;
+  }
+  
+  ngb-carousel img {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    padding-top: 0px;
   }
 
   .container {

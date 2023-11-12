@@ -22,7 +22,7 @@ export class GalleryComponent implements OnInit {
       alt: 'msr trip Visit'
     },
     {
-      url: 'assets/images/msr trip2.jpg',
+      url: 'assets/images/msr trip22.jpg',
       alt: 'msr trip Visit'
     },
     {

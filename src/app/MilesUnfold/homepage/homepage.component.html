@@ -1,8 +1,13 @@
-<section class="hero">
+<!-- <section class="hero">
   <div class="hero-content">
     <h3>Unleash your curiosity and dive into a world of educational & fun experiences</h3>
   </div>
-</section>
+</section> -->
+<ngb-carousel *ngIf="images" [showNavigationArrows]="true" [showNavigationIndicators]="true" [interval]="3000" [pauseOnHover]="false">
+  <ng-template ngbSlide *ngFor="let img of images; let i = index" id="slide-{{i}}">
+    <img [src]="img" alt="Slide {{i + 1}}">
+  </ng-template>
+</ngb-carousel>
 <div class="about-us-section">
   <div class="about-us-image">
     <img src="assets/images/aboutus11.png" alt="About Us">

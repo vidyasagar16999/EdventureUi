@@ -10,9 +10,11 @@ export class HomepageComponent implements OnInit, OnDestroy  {
   constructor() { }
 
   images: string[] = [
-    'assets/images/nagarjuna sagar.jpeg',
-    'assets/images/mount-opera-star-resort.jpg',
-    'assets/images/wonderla3.jfif'
+    'assets/images/parlestu.jpeg',
+    'assets/images/ppfarm1.jpeg',
+    'assets/images/nfarm.jpeg',
+    'assets/images/msr trip33.jpg',
+    
     // add paths to more images as needed
   ];
 
