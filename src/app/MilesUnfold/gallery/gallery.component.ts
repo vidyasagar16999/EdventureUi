@@ -26,6 +26,14 @@ export class GalleryComponent implements OnInit {
       alt: 'msr trip Visit'
     },
     {
+      url: 'assets/images/cocacola.jpg',
+      alt: 'msr trip Visit'
+    },
+    {
+      url: 'assets/images/doscience.jpg',
+      alt: 'msr trip Visit'
+    },
+    {
       url: 'assets/images/nature.jpg',
       alt: 'Agriculture/Nature Visit'
     },

@@ -17,12 +17,24 @@ export class TripsServicesComponent implements OnInit {
       id: 1,
       title: 'Agriculture/Nature Visit',
       description: 'Step into the world of farming and agriculture! Witness the process of food production from sowing seeds to reaping crops.',
-      activities: 'Paddy Transplantation, Sowing, Seed testing, Soil Preparation, Natural Pest Preparation, Natural Compost Preparation, Milk Tonning, Agri Tools Expo.',
+      activities: 'Paddy Transplantation, Sowing, Seed testing, Soil Preparation, Natural Pest Preparation, Natural Compost Preparation',
       groupSize: '100-150',
       duration: '4 Hrs',
       ageGroup: '8+',
       targetAreas: 'Understanding sustainable farming practices, appreciation of nature and biodiversity, team-building, relaxation and stress relief.',
       url: 'assets/images/nature.jpg',
+      alt: 'Image 1 description'
+    },
+    {
+      id: 1,
+      title: 'Farm School',
+      description: 'This innovative farm combines Organic Farming, Vermiculture, Hydroponics, Aquaponics, Soil Testing, and Apiculture, creating a harmonious ecosystem where sustainable agriculture and modern techniques blend to produce eco-friendly and products.',
+      activities: 'Organic Farming, Vermiculture, Hydrophonics, Aquaphonics, Soil Testing, Apiculture (Honey bee)',
+      groupSize: '100-150',
+      duration: '4 Hrs',
+      ageGroup: '8+',
+      targetAreas: 'Understanding sustainable farming practices, appreciation of nature and biodiversity, team-building, relaxation and stress relief.',
+      url: 'assets/images/ppfarm1.jpeg',
       alt: 'Image 1 description'
     },
     {
@@ -47,6 +59,18 @@ export class TripsServicesComponent implements OnInit {
       ageGroup: '8+',
       targetAreas: 'Solar Panel, SCience Park',
       url: 'assets/images/science.jpg',
+      alt: 'Image 1 description'
+    },
+    {
+      id: 17,
+      title: 'Science Park',
+      description: 'Hands-on educational program designed to provide students with real-world experiences and practical applications in the fields of science',
+      activities: 'Enhanced Understanding, Science Park Visit (60 Experiments)',
+      groupSize: '100-150',
+      duration: '2 Hrs',
+      ageGroup: '8+',
+      targetAreas: 'Solar Panel, SCience Park',
+      url: 'assets/images/doscience.jpg',
       alt: 'Image 1 description'
     },
     {
@@ -110,8 +134,20 @@ export class TripsServicesComponent implements OnInit {
       alt: 'Image 2 description'
     },
     {
+      id: 18,
+      title: 'Coca Cola Factory Visit',
+      description: 'An incredible opportunity to see how one of the world’s most popular drinks is made, from start to finish',
+      activities: 'different stages involved in producing a bottle of Coca Cola',
+      groupSize: 'Itinerary details for Trip 1.',
+      duration: 'Itinerary details for Trip 1.',
+      ageGroup: 'Age group recommendation for Trip 1.',
+      targetAreas: 'Introduction to film production, creative learning, appreciation of art and culture, team building, and interactive fun.',
+      url: 'assets/images/cocacola.jpg',
+      alt: 'Image 2 description'
+    },
+    {
       id: 13,
-      title: 'Masqati Dairy Farm',
+      title: 'Masqati Dairy Products',
       description: 'Step into the wholesome world of the Masqati dairy farm on a memorable school trip',
       activities: 'Walk through different units, Milk packaging Unit, Ghee Preparation, Flavoured milk like Badam (almond) milk is prepared and then bottled',
       groupSize: 'Itinerary details for Trip 1.',
@@ -172,7 +208,7 @@ export class TripsServicesComponent implements OnInit {
     },
     {
       id: 16,
-      title: 'South Indias Biggest Rice Cluster',
+      title: "South India's Biggest Rice Cluster",
       description: 'Rice Milling is the process of removing the husk and bran layers from the paddy and producing a white rice kernel that is free of impurities.',
       activities: 'Steam Process, Boil Process, Power generation from Husk',
       groupSize: 'Itinerary details for Trip 1.',
@@ -182,18 +218,18 @@ export class TripsServicesComponent implements OnInit {
       url: 'assets/images/ricecluster.jpeg',
       alt: 'Image 2 description'
     },
-    {
-      id: 6,
-      title: 'Wonderla',
-      description: 'Experience the thrill of cutting-edge rides and attractions at Wonderla, one of the best amusement parks in the country. This trip aims to provide students a fun-filled day.',
-      activities: 'Thrill Rides, Water Park Adventures, Interactive Gaming Zones, Adventure Sports',
-      groupSize: 'Itinerary details for Trip 1.',
-      duration: 'Itinerary details for Trip 1.',
-      ageGroup: 'Age group recommendation for Trip 1.',
-      targetAreas: 'Physics, engineering principles, team building, safety awareness.',
-      url: 'assets/images/wonder11.webp',
-      alt: 'Image 2 description'
-    },
+    // {
+    //   id: 6,
+    //   title: 'Wonderla',
+    //   description: 'Experience the thrill of cutting-edge rides and attractions at Wonderla, one of the best amusement parks in the country. This trip aims to provide students a fun-filled day.',
+    //   activities: 'Thrill Rides, Water Park Adventures, Interactive Gaming Zones, Adventure Sports',
+    //   groupSize: 'Itinerary details for Trip 1.',
+    //   duration: 'Itinerary details for Trip 1.',
+    //   ageGroup: 'Age group recommendation for Trip 1.',
+    //   targetAreas: 'Physics, engineering principles, team building, safety awareness.',
+    //   url: 'assets/images/wonder11.webp',
+    //   alt: 'Image 2 description'
+    // },
     // Add more trip objects with their details here
   ];
 }
