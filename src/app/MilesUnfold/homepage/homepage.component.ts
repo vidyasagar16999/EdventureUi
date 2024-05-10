@@ -14,6 +14,7 @@ export class HomepageComponent implements OnInit, OnDestroy  {
     'assets/images/ppfarm1.jpeg',
     'assets/images/nfarm.jpeg',
     'assets/images/msr trip33.jpg',
+    'assets/images/greenfields.JPG'
     
     // add paths to more images as needed
   ];

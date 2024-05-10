@@ -3,7 +3,7 @@
     <h3>Unleash your curiosity and dive into a world of educational & fun experiences</h3>
   </div>
 </section> -->
-<ngb-carousel *ngIf="images" [showNavigationArrows]="true" [showNavigationIndicators]="true" [interval]="3000" [pauseOnHover]="false">
+<ngb-carousel *ngIf="images" [showNavigationArrows]="true" [showNavigationIndicators]="true" [interval]="3000" [pauseOnHover]="false" [pauseOnFocus] ="false">
   <ng-template ngbSlide *ngFor="let img of images; let i = index" id="slide-{{i}}">
     <img [src]="img" alt="Slide {{i + 1}}">
   </ng-template>
@@ -15,7 +15,7 @@
   <div class="about-us-text">
     <h2>Who are we </h2>
     <p style="text-align: justify;hyphens: auto;word-spacing: 1px;">
-      We are a dedicated group of enthusiasts provides educational & fun experiences for school students. We
+      We are a dedicated group of enthusiasts organizes educational experiences for school students. We
       believe that the best way to learn is through experience & expedition, and we create trips that allow students to explore the
       world and learn different cultures & perspectives, industrial exposures, Practical experineces. We are committed to provide engaging, immersive,
       educational, fun and affordable trips for all students
@@ -23,7 +23,7 @@
     <button routerLink="/about-us" class="learn-more-btn">Learn More</button>
   </div>
   <div class="whatgetimage">
-    <img src="assets/images/whatget-removebg.png" alt="what you will get">
+    <img src="assets/images/services2.png" alt="what you will get">
   </div>
 </div>
 <div class="container">
@@ -36,7 +36,7 @@
   </div>
   <div class="box">
     <img src="assets/images/industrial.jpg" alt="Page 2" />
-    <p class="box-text">Parle Factory Visit</p>
+    <p class="box-text">Factory Visit</p>
     <a routerLink="/trips-services">
       <p class="button-text">Learn More</p>
     </a>
@@ -49,8 +49,8 @@
     </a>
   </div>
   <div class="box">
-    <img src="assets/images/bmscience.jfif" alt="Page 4" />
-    <p class="box-text">BM Science Planatary</p>
+    <img src="assets/images/firestation.jpeg" alt="Page 4" />
+    <p class="box-text">Fire Station Visit</p>
     <a routerLink="/trips-services">
       <p class="button-text">Learn More</p>
     </a>
@@ -63,8 +63,8 @@
     </a>
   </div>
   <div class="box">
-    <img src="assets/images/zoo1.jpg" alt="Page 5" />
-    <p class="box-text">Nehru Zoological Park</p>
+    <img src="assets/images/museums121.jpg" alt="Page 5" />
+    <p class="box-text">Museums</p>
     <a routerLink="/trips-services">
       <p class="button-text">Learn More</p>
     </a>

@@ -13,10 +13,10 @@ export class GalleryComponent implements OnInit {
   }
 
   galleryItems = [
-    // { 
-    //   url: 'assets/images/msr trip1.jpg',
-    //   alt: 'msr trip Visit'
-    // },
+    { 
+      url: 'assets/images/agri-naidu.jpeg',
+      alt: 'farm visit'
+    },
     {
       url: 'assets/images/msr trip33.jpg',
       alt: 'msr trip Visit'
@@ -26,15 +26,11 @@ export class GalleryComponent implements OnInit {
       alt: 'msr trip Visit'
     },
     {
-      url: 'assets/images/cocacola.jpg',
-      alt: 'msr trip Visit'
-    },
-    {
       url: 'assets/images/doscience.jpg',
       alt: 'msr trip Visit'
     },
     {
-      url: 'assets/images/nature.jpg',
+      url: 'assets/images/greenfields.JPG',
       alt: 'Agriculture/Nature Visit'
     },
     {
@@ -45,10 +41,10 @@ export class GalleryComponent implements OnInit {
       url: 'assets/images/bmscience.jfif',
       alt: 'BM Science Planatary'
     },
-    {
-      url: 'assets/images/zoo1.jpg',
-      alt: 'Nehru Zoological Park'
-    },
+    // {
+    //   url: 'assets/images/zoo1.jpg',
+    //   alt: 'Nehru Zoological Park'
+    // },
     // {
     //   url: 'assets/images/mount-opera-star-resort.jpg',
     //   alt: 'Mount-Opera'
@@ -90,10 +86,6 @@ export class GalleryComponent implements OnInit {
       alt: 'factory'
     },
     {
-      url: 'assets/images/farm5.jpg',
-      alt: 'factory'
-    },
-    {
       url: 'assets/images/farm6.jpg',
       alt: 'factory'
     },
@@ -109,10 +101,10 @@ export class GalleryComponent implements OnInit {
       url: 'assets/images/chicken.jpg',
       alt: 'factory'
     },
-    {
-      url: 'assets/images/animals.jpg',
-      alt: 'factory'
-    },
+    // {
+    //   url: 'assets/images/animals.jpg',
+    //   alt: 'factory'
+    // },
     {
       url: 'assets/images/physics exper.jpg',
       alt: 'factory'
@@ -142,13 +134,17 @@ export class GalleryComponent implements OnInit {
       alt: 'factory'
     },
     {
+      url: 'assets/images/cocacola.jpg',
+      alt: 'msr trip Visit'
+    },
+    {
       url: 'assets/images/pochampally.jpg',
       alt: 'pochampally'
     },
-    {
-      url: 'assets/images/pochampally11.jpeg',
-      alt: 'pochampally'
-    },
+    // {
+    //   url: 'assets/images/pochampally11.jpeg',
+    //   alt: 'pochampally'
+    // },
     {
       url: 'assets/images/pochampally12.jpeg',
       alt: 'pochampally'
@@ -157,9 +153,13 @@ export class GalleryComponent implements OnInit {
       url: 'assets/images/sericulture.jpeg',
       alt: 'pochampally'
     },
+    // {
+    //   url: 'assets/images/ricecluster.jpeg',
+    //   alt: 'pochampally'
+    // },
     {
-      url: 'assets/images/ricecluster.jpeg',
-      alt: 'pochampally'
+      url: 'assets/images/trafficstation.jpg',
+      alt: 'traffic training'
     },
     // {
     //   url: 'assets/images/ramoji.jpg',
