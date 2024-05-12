@@ -1,3 +1,4 @@
+import { Content } from '@angular/compiler/src/render3/r3_ast';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
@@ -15,128 +16,157 @@ export class BlogDetailComponent implements OnInit {
     console.log("hi");
     let id = this.route.snapshot.paramMap.get('id');
     if (id) {
-      this.blogDetail = this.getBlogs(+id);
+      this.blogDetail = this.getBlogs(id);
     } else {
       // Handle the error or scenario where id is null
     }
     console.log(this.blogDetail);
   }
 
-  getBlogs(id: number): any {
+  getBlogs(id: string): any {
     return this.blogs.find(blogs => blogs.id === id);
   }
 
   blogs = [
+    
     {
-      id: 1,
-      title: "Tips for Planning Educational Trips",
-      featuredImage: "assets/images/imageblog.jpg",
-      summary: "This blog post provides valuable tips on how to plan educational trips, ensuring a well-organized and enriching experience for students. It covers essential aspects such as starting early, choosing the right destination, planning the itinerary, setting a budget, obtaining permission, being flexible, and prioritizing fun and engagement.",
+      id: 'Educational-Tour-Benefits-for-Students:Top-5-Insights',
+      title: "Educational Tour Benefits for Students: Top 5 Insights",
+      featuredImage: "assets/images/blogedbe1.png",
+      summary: "Every parent and teacher knows how challenging it is to keep students engaged. But what if there’s a proven way to enhance their learning outside the classroom ? I promise to share how educational tours can dramatically improve learning.You'll discover the top five insights that show why these trips are so beneficial.Prepare to see education in a whole new light!",
       content: [
-        { heading: "Start early", content: "Planning an educational trip takes time, so it's important to start early. This will give you plenty of time to research destinations, book flights and accommodations, and get permission from parents and schools. Early planning also allows for better coordination and ensures availability of desired venues, activities, and accommodations." },
-        { heading: "Choose the right destination", content: "When selecting a destination for an educational trip, consider the curriculum and the interests of the students. Look for places that provide relevant learning opportunities and align with educational goals. Additionally, factor in the budget and time constraints to choose a destination that offers the most value within your resources." },
-        { heading: "Plan the itinerary", content: "Once you've chosen a destination, plan the itinerary in detail. Determine which activities the students will participate in, where they'll stay, and how they'll get around. Balance educational visits with recreational activities to create a well-rounded experience. Allow for flexibility in the schedule to accommodate unexpected changes or additional learning opportunities that may arise." },
-        { heading: "Set a budget", content: "It's crucial to establish a budget for the trip before diving into the planning process. Consider all expenses, including transportation, accommodation, meals, entry fees, and additional activities. Setting a budget helps you stay on track and make informed decisions about resource allocation throughout the planning process." },
-        { heading: "Get permission from parents and schools", content: "Before making any bookings, obtain permission from parents and schools. Communicate the educational objectives, itinerary details, safety measures, and expected costs clearly. Ensure that all stakeholders are aware of the trip's educational value, safety precautions, and the benefits it offers to the students' development." },
-        { heading: "Be flexible", content: "Recognize that things don't always go according to plan, so it's essential to be flexible. Prepare contingency plans for unforeseen circumstances such as bad weather or flight cancellations. Have alternatives and backup options available to minimize disruptions and keep the trip running smoothly." },
-        { heading: "Have fun!", content: "Remember that educational trips should be enjoyable and engaging for students. Include activities that are not only educational but also fun and interactive. Incorporate hands-on experiences, interactive workshops, and team-building activities that help students learn while having a great time." },
+        {heading: "Enhanced Learning", content: [
+          { subcontent :"Educational tours provide students with the chance to learn beyond textbooks."},
+          { subcontent : "By immersing themselves in new cultures and customs, students gain a deeper understanding of the around them."}
+        ]},
+        {heading: "Skill Development", content: [
+          { subcontent :"Educational tours encourage the improvement of social skills through interactions with peers and locals."},
+          { subcontent : "Students experience a boost in problem-solving abilities by navigating unfamiliar environments and scenarios."},
+          { subcontent : "Participation in group activities fosters teamwork and collaboration skills."}
+        ]},
+        {heading: "Personal Growth", content: [
+          { subcontent :"Educational tours help students build independence and confidence as they navigate new surroundings."},
+          { subcontent : "Adapting to different environments teaches students resilience and flexibility."}
+        ]},
+        {heading: "Career Inspiration", content: [
+          { subcontent :"Exposure to various professions during educational tours can spark interest in different career paths."},
+          { subcontent : "Students witness real-world applications of school subjects, connecting classroom knowledge to practical experiences."}
+        ]},
+        {heading: "Lifelong Memories", content: [
+          { subcontent :"Educational tours offer students the chance to form lasting bonds with their peers."},
+          { subcontent : "Fun and unique experiences create memories that students cherish for years to come."}
+        ]},
       ],
-        end: "By following these tips, you can plan and execute educational trips that provide memorable and impactful experiences for students. These trips go beyond classroom learning, fostering a love for exploration, expanding knowledge, and facilitating personal growth.",
+      end :"In conclusion, educational tours provide students with invaluable opportunities for enhanced learning, skill development, personal growth, career inspiration, and lifelong memories. I encourage every student to explore the transformative benefits of educational tours and seize the chance to broaden their horizons."
     },
     {
-      id: 2,
-      title: "The Benefits of Educational Trips for Students",
-      featuredImage: "assets/images/blog4.jpg",
-      summary: "This blog post delves into the various benefits that educational trips offer to students. It highlights improved learning outcomes, increased knowledge and understanding, the development of critical thinking skills, and improved communication skills as some of the advantages students gain through participating in educational trips.",
+      id: 'Guide-to-Planning-Successful-Educational-Tours',
+      title: 'Guide to Planning Successful Educational Tours',
+      featuredImage: "assets/images/blogedplan.png",
+      summary: "Ever felt overwhelmed while planning an educational tour? You're not alone. Fortunately, I've navigated these before and found a few secrets to share. In this post, I'll outline five essential strategies that ensure a smooth, educational adventure. Discover how to enhance learning, engage students, and organize without hassle.Join me as we dive into the ultimate guide to planning successful educational tours.",
       content: [
-        {heading: "Improved learning outcomes", content: "Students who participate in educational trips tend to have improved learning outcomes. By experiencing real-world applications of classroom knowledge, students can better understand and retain information. Educational trips provide opportunities for hands-on learning, enabling students to connect theoretical concepts with practical experiences, thereby enhancing their comprehension and retention of subject matter."},
-        {heading: "Increased knowledge and understanding", content: "Educational trips play a significant role in expanding students' knowledge and understanding. They provide exposure to different cultures, historical events, scientific concepts, and more. Students can witness historical landmarks, interact with experts, explore museums, and engage in immersive experiences that deepen their understanding of various subjects. These experiences promote a broader perspective and foster a lifelong appreciation for learning."},
-        {heading: "Developed critical thinking skills", content: "Educational trips contribute to the development of critical thinking skills. Students are faced with new and unfamiliar environments where they must think on their feet and find solutions to challenges. Navigating through different settings, interacting with locals, and encountering unique situations require adaptability, problem-solving, and analytical thinking. These experiences encourage students to think critically, make decisions, and develop resourcefulness."},
-        {heading: "Improved communication skills", content: "Educational trips offer opportunities for students to enhance their communication skills. Interacting with people from different backgrounds and cultures requires effective communication and understanding. Students learn to express themselves clearly, actively listen, and collaborate with others to overcome language and cultural barriers. These experiences foster empathy, tolerance, and the ability to engage in meaningful conversations, ultimately improving communication skills."},
+        {heading: "Understanding the Objectives", content: [
+          { subcontent :"Define educational goals: Before embarking on planning an educational tour, it is crucial to clearly define the objectives and learning outcomes you aim to achieve. Are you looking to enhance historical knowledge, promote cultural understanding, or improve teamwork skills?"},
+          { subcontent : "Identify target age group: Tailoring the tour to the appropriate age group is essential for maximizing engagement and educational impact. Consider the students' interests, cognitive abilities, and prior knowledge."},
+          { subcontent : "Outcomes and takeaway: Reflect on what you want the participants to gain from the tour. Whether it's increased cultural awareness, improved critical thinking skills, or enhanced social interaction, having clear outcomes in mind will guide your planning process effectively."}
+        ]},
+        {heading: "Choosing the Right Destination", content: [
+          { subcontent :"Cultural relevance to curriculum: Select a destination that aligns with the topics covered in the curriculum. This ensures that the tour enhances classroom learning and provides real-world context for the students."},
+          { subcontent : "Safety and accessibility: Prioritize the safety and accessibility of the chosen location. Conduct thorough research on the destination's security measures, healthcare facilities, and transportation options to ensure a smooth and secure educational experience."},
+          { subcontent : "Timing and climate factors: Consider the timing of the tour to coincide with favorable weather conditions and avoid peak tourist seasons. This allows for a more enjoyable and comfortable experience for both students and educators."}
+        ]},
+        {heading: "Budgeting and Funding", content: [
+          { subcontent :"Estimating costs: Create a detailed budget that includes transportation, accommodation, meals, entrance fees, and any additional expenses. Consider all possible costs to avoid unexpected financial constraints during the tour."},
+          { subcontent : "Fundraising ideas: Explore creative fundraising ideas such as bake sales, car wash events, or online crowdfunding campaigns to offset the tour expenses. Engaging students and parents in fundraising activities fosters a sense of ownership and commitment to the tour."},
+          { subcontent : "Seeking sponsorship and grants: Reach out to local businesses, organizations, and educational foundations for potential sponsorship or grant opportunities. Many companies are willing to support educational initiatives that benefit the community and contribute to student learning."},
+        ]},
+        {heading: "Logistics and Planning", content: [
+          { subcontent :"Transportation and accommodations: Arrange reliable transportation and suitable accommodations that cater to the group's size and needs. Whether it's booking charter buses, reserving hotels, or arranging homestays, plan logistics that prioritize comfort and convenience."},
+          { subcontent : "Meal arrangements: Coordinate meal options that cater to dietary restrictions, preferences, and cultural considerations. Research local cuisine and incorporate food experiences that enrich the cultural aspect of the educational tour."},
+          { subcontent : "Emergency plans: Develop comprehensive emergency plans that address medical emergencies, natural disasters, or unforeseen circumstances. Communicate emergency procedures to all participants and ensure access to emergency contact information throughout the tour."},
+        ]},
+        {heading: "Engagement and Activities", content: [
+          { subcontent :"Interactive learning experiences: Organize interactive activities and educational workshops that encourage active participation and hands-on learning. Engage local experts, historians, or guides to provide insightful perspectives on the destination's history and culture."},
+          { subcontent : "Guides and experts involvement: Collaborate with knowledgeable guides and experts who can enhance the educational experience with their expertise and storytelling skills. Their insights and anecdotes can bring history and culture to life for the students."},
+          { subcontent : "Post-tour activities and assessments: Plan post-tour activities that continue the learning experience beyond the trip. Conduct assessments to evaluate the students' knowledge retention and understanding of the tour's educational objectives. Encourage reflection and feedback to improve future educational tours."},
+        ]},
       ],
-      end :"By participating in educational trips, students benefit from improved learning outcomes, increased knowledge and understanding, the development of critical thinking skills, and improved communication abilities. These experiences complement classroom learning, nurture personal growth, and cultivate lifelong skills that prepare students for future academic and professional endeavors."
+        end: "In conclusion, successful educational tours require careful planning, strategic decision-making, and a focus on meaningful learning outcomes. By following these proven strategies, educators can create enriching and impactful experiences that broaden students' horizons and foster lifelong learning. Start planning your next educational tour today and watch your students' learning journey unfold!",
     },
     {
-      id:3,
-      title: "Tips for Choosing the Right Educational Trip Destination",
-      featuredImage: "assets/images/blog3.jpg",
-      summary: "This blog post offers valuable tips on how to select the ideal destination for an educational trip. It emphasizes considering the curriculum relevance, student interests, budgetary considerations, time constraints, and conducting thorough research to make an informed decision.",
+      id: 'How-to-Choose-the-Right-Field-Trip-Destination',
+      title: "How to Choose the Right Field Trip Destination",
+      featuredImage: "assets/images/blogdes.png",
+      summary: "Choosing the perfect field trip location is challenging. Every teacher wants to blend education with excitement.But how? I'll share secrets to making your next field trip unforgettable. Discover factors that ensure both fun and learning,Strategic tips for logistical planning, And how to cater to varied educational needs.",
       content: [
-        {
-          heading: "Consider the curriculum",
-          content: "When choosing an educational trip destination, it is crucial to align it with the curriculum. Reflect on the learning objectives and what you hope students will gain from the trip. Ensure that the destination offers relevant educational opportunities where students can apply what they have learned in the classroom to real-world experiences. This connection enhances their understanding and reinforces classroom teachings."
-        },
-        {
-          heading: "Consider the interests of the students",
-          content: "To maximize student engagement and enthusiasm, consider their interests when selecting a destination. Inquire about their preferences and what they would like to learn and explore. Choosing a destination that aligns with their interests not only enhances their motivation but also helps them derive the most benefit from the trip."
-        },
-        {
-          heading: "Factor in the budget",
-          content: "Determine the budget available for the trip. Understanding the financial constraints will help you narrow down destination options that fit within your budget. Consider all expenses, including transportation, accommodation, meals, entry fees, and additional activities. This thoughtful approach ensures a financially feasible trip without compromising the quality of the educational experience."
-        },
-        {
-          heading: "Consider the time constraints",
-          content: "Take into account the available time for the trip. Assess the duration of the trip and the time it takes to reach the destination. Choose a location that is easily accessible within the given time frame. It's essential to plan realistically, considering travel time, potential jet lag, and the amount of time needed to explore the destination adequately."
-        },
-        {
-          heading: "Do your research",
-          content: "Once you have identified a few potential destinations, conduct thorough research. Gather information about each location's educational opportunities, landmarks, museums, cultural experiences, and safety considerations. Review testimonials, travel guides, and online resources to gain insights and make an informed decision. Researching will help you select the destination that best aligns with your educational goals and the needs of your student group."
-        }
+        {heading: "Understanding Objectives", content: [
+          { subcontent : "*Educational goals*: Define the learning outcomes you want to achieve through the field trip."},
+          { subcontent : "*Recreational benefits*: Consider how the location can provide a fun and enjoyable experience for the participants."},
+          { subcontent : "*Aligning with curriculum*: Choose a destination that aligns with the curriculum or matches the interests of the group."}
+        ]},
+        {heading: "Setting the Budget", content: [
+          { subcontent :"*Estimating costs*: Calculate travel expenses, entry fees, and any additional costs involved."},
+          { subcontent : "*Funding options*: Explore tips for securing sponsorships or funding opportunities."},
+          { subcontent : "*Budget-friendly options*: Look for destinations that offer affordable packages or discounts for school groups."}
+        ]},
+        {heading: "Safety First", content: [
+          { subcontent :"*Evaluating safety*: Prioritize locations with a good safety record and proper precautions in place."},
+          { subcontent : "*Preparations*: Ensure all necessary permissions and insurance arrangements are in order."},
+          { subcontent : "*Risk assessment*: Conduct a thorough risk assessment to address potential hazards and emergencies."},
+        ]},
+        {heading: "Logistics and Timing", content: [
+          { subcontent :"*Best time to visit*: Consider the seasonal variations and peak times for specific locations."},
+          { subcontent : "*Travel considerations*: Factor in travel time, distance, and transportation options."},
+          { subcontent : "*Facilities*: Check for availability of food, facilities, and accommodation if needed."},
+        ]},
+        {heading: "Engagement Opportunities", content: [
+          { subcontent :"*Interactive elements*: Look for destinations that offer hands-on learning experiences and interactive activities."},
+          { subcontent : "*Hands-on learning*: Provide opportunities for students to engage in practical, experiential learning."},
+          { subcontent : "*Group collaboration*: Choose locations that encourage teamwork and group participation."},
+        ]},
+        {heading: " Final Checklist", content: [
+          { subcontent :"*Key factors*: Recap the essential elements to consider when choosing a field trip destination."},
+          { subcontent : "*Pre-visit preparations*: Ensure all necessary arrangements and reservations are made in advance."},
+          { subcontent : "*Meeting needs*: Double-check that all requirements are met to guarantee a successful trip."},
+        ]},
       ],
-      end : "By following these tips, you can make a well-informed decision when choosing the right destination for your educational trip. A carefully selected destination enhances the educational value of the trip and ensures a memorable and impactful experience for students."
+      end : "In conclusion, choosing the right field trip destination requires strategic planning, research, and consideration of various factors. By following the steps outlined in this blog post, educators and organizers can make informed decisions that will enhance the learning experience for participants. Remember to take thoughtful steps in selecting the perfect location for a successful and enriching field trip adventure."
     },
     {
-      id: 4,
-      "title": "How to Plan an Educational Trip",
-      "featuredImage": "assets/images/blog2.jpg",
-      "summary": "This blog post provides essential tips on planning an educational trip, ensuring a well-organized and meaningful experience for students. It emphasizes starting early, choosing a curriculum-relevant destination, involving students in the planning process, setting a budget, conducting thorough research, obtaining necessary permissions, booking accommodations and flights in advance, and being flexible in case of unforeseen circumstances.",
-      "content": [
-        {
-          "heading": "Start early",
-          "content": "Planning an educational trip takes time, so it's crucial to start the process early. This allows ample time for research, securing permissions, and making necessary arrangements. Starting early ensures you have sufficient time to explore destinations, compare options, and make informed decisions to create a well-crafted trip itinerary."
-        },
-        {
-          "heading": "Choose a destination that is relevant to the curriculum",
-          "content": "Selecting a destination aligned with the curriculum enhances students' understanding of how classroom concepts apply in the real world. It provides them with practical examples, allowing for meaningful connections between academic studies and real-life experiences. Consider destinations that offer educational opportunities that complement and reinforce classroom learning."
-        },
-        {
-          "heading": "Make sure the trip is well-organized and well-planned",
-          "content": "Effective organization and planning are crucial for a successful educational trip. Ensure all logistics, including transportation, accommodations, and activities, are thoughtfully arranged. A well-planned trip minimizes disruptions and creates a positive experience for all participants, maximizing educational outcomes."
-        },
-        {
-          "heading": "Involve students in the planning process",
-          "content": "Engaging students in the planning process fosters their ownership and investment in the trip. Seek their input, preferences, and suggestions. By involving them, you can tailor the trip to their interests and make it more relevant and engaging. This participation enhances their excitement and commitment to the educational journey."
-        },
-        {
-          "heading": "Provide students with opportunities to reflect on their experiences",
-          "content": "Encourage students to reflect on their experiences during and after the trip. Incorporate reflection activities that allow them to process what they have learned and make connections between academic studies and their personal lives. Reflection enhances deeper understanding and long-term retention of knowledge."
-        },
-        {
-          "heading": "Set a budget and stick to it",
-          "content": "Establish a budget for the trip and allocate funds wisely. Setting a budget ensures financial discipline and prevents overspending. Prioritize expenses based on educational goals and choose cost-effective options without compromising the quality of the trip."
-        },
-        {
-          "heading": "Do your research",
-          "content": "Conduct thorough research on potential destinations. Gather information about educational attractions, safety considerations, local resources, and cultural experiences. Evaluate the suitability of each destination based on educational objectives, budget constraints, and logistical feasibility. Researching enables you to make informed decisions and select the most suitable destination for your group."
-        },
-        {
-          "heading": "Get permission from parents and schools",
-          "content": "Obtain necessary permissions from parents and schools before proceeding with the trip. Effective communication with parents and school authorities ensures safety measures are in place and that everyone is informed and supportive of the educational journey."
-        },
-        {
-          "heading": "Book flights and accommodations early",
-          "content": "Secure flights and accommodations in advance to take advantage of better deals and availability. Early bookings provide peace of mind, especially during peak travel seasons when availability may be limited."
-        },
-        {
-          "heading": "Plan the itinerary",
-          "content": "Once flights and accommodations are confirmed, plan the itinerary meticulously. Determine the activities students will participate in, arrange suitable accommodations, and consider transportation arrangements. A well-structured itinerary ensures a balanced and enriching experience for students."
-        },
-        {
-          "heading": "Be flexible",
-          "content": "Flexibility is crucial when planning an educational trip. Unexpected circumstances may arise, such as unavailability of desired destinations or changes in circumstances. Be prepared to consider alternative options and adapt the itinerary to ensure a smooth and enjoyable trip."
-        }
+      id: 'Best-Educational-Field-Trips-Ideas-for-Students',
+      title: 'Best Educational Field Trips Ideas for Students',
+      featuredImage: "assets/images/blogsci.png",
+      summary: "Field trips have long been recognized as valuable educational experiences for students of all ages For teenagers, these outings offer a unique opportunity to enhance learning outside the classroom gain practical knowledge in various This blog post will explore some of the best educational trip ideas tailored for students across different educational fields.",
+      content: [
+        {heading: "Science and Nature Trips", content: [
+          { subcontent : "*Visit to a Planetarium*: A trip to a planetarium provides students with a close-up look at our fascinating universe, giving them a chance to learn about celestial bodies and space exploration."},
+          { subcontent : "*Exploring a Botanical Garden*: Botanical gardens offer a hands-on experience for teenagers to explore diverse plant species, learn about ecosystems, and understand the importance of conservation."},
+          { subcontent : "*Tour at a Science Museum*: Science museums provide interactive exhibits and displays that engage students in hands-on learning experiences related to physics, biology, chemistry, and more."}
+        ]},
+        {heading: "History and Culture Outings", content: [
+          { subcontent :"*Walking Tour of Historic Downtown*: Walking tours of historic downtown areas allow teenagers to immerse themselves in the rich history of a city, learn about significant events, and explore architectural landmarks."},
+          { subcontent : "*Visiting a Cultural Heritage Museum*: Cultural heritage museums offer insights into different cultures, traditions, and historical periods, helping students gain a deep appreciation for diversity and heritage."},
+          { subcontent : "*Day at an Archaeological Site*: Visiting an archaeological site enables students to witness firsthand the excavation process, learn about ancient civilizations, and understand archaeological methods."}
+        ]},
+        {heading: "Art and Creativity Boosters", content: [
+          { subcontent :"*Workshop at an Art Museum*: Art museum workshops provide students with opportunities to engage in artistic activities, learn about different art styles, and express their creativity through hands-on projects."},
+          { subcontent : "* *Interactive Visit to a Music Conservatory*: Visiting a music conservatory exposes teenagers to different musical genres, instruments, and performances, fostering a love for music and inspiring potential career paths in the arts."},
+        ]},
+        {heading: "Technology and Innovation", content: [
+          { subcontent :"*Tech Company Campus Tour*: Visiting a tech company campus gives teenagers insights into cutting-edge technology, innovation processes, and career opportunities in the tech industry."},
+          { subcontent : "*Innovation Hub Experiences*: Innovation hubs offer hands-on experiences in design thinking, problem-solving, and prototyping, allowing students to explore their creativity and entrepreneurial skills."},
+        ]},
+        {heading: "Environmental Education", content: [
+          { subcontent :"*Wildlife Reserve Safari*: Wildlife reserve safaris provide teenagers with an up-close encounter with animals in their natural habitats, raising awareness about wildlife conservation and environmental protection."},
+          { subcontent : "*Conservation Park Activities*: Conservation parks offer activities such as tree planting, wildlife monitoring, and habitat restoration, giving students a chance to contribute to environmental conservation efforts."},
+          { subcontent : "*Marine Biology Coastal Walk*: Coastal walks led by marine biologists educate students about coastal ecosystems, marine life, and the importance of preserving ocean environments."},
+        ]},
+        {heading: "Government and Politics", content: [
+          { subcontent :"*State Capital Educational Tour*: State capital tours provide teenagers with insights into the legislative process, government structure, and civic engagement, empowering them to be informed citizens."},
+          { subcontent : "*Mock Legislature Session*: Mock legislature sessions enable students to participate in debates, create bills, and experience the dynamics of lawmaking, enhancing their understanding of democracy and governance."},
+        ]},
       ],
-      end : "By following these tips, you can plan and execute an educational trip that provides students with a transformative learning experience, expands their horizons, and fosters personal and academic growth."
+      end : "In conclusion, educational field trips offer unparalleled opportunities for teenagers to enrich their learning experiences, develop critical thinking skills, and deepen their understanding of various subjects. By organizing field trips that cater to students' interests across science, history, art, technology, environment, and government, educators and parents can nurture a love for learning and inspire the next generation of leaders. Encouraging teenagers to participate in these diverse educational field trip ideas is a powerful way to shape their academic growth and personal development."
     }
   ];
 }

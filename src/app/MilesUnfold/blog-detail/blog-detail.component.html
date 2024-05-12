@@ -6,7 +6,10 @@
     <p class="blog-summary">{{blogDetail.summary}}</p>
     <div *ngFor="let itinerary of blogDetail.content" class="blog-content">
         <h2>{{itinerary.heading}}</h2>
-        <p>{{itinerary.content}}</p>
+        <div *ngFor="let itinerary1 of itinerary.content">
+            <p><li>{{itinerary1.subcontent}}</li></p>
+        </div>
+        
     </div>
     <div class="blog-content">
         <p>{{blogDetail.end}}</p>

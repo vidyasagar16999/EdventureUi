@@ -29,10 +29,10 @@ export class GalleryComponent implements OnInit {
       url: 'assets/images/doscience.jpg',
       alt: 'msr trip Visit'
     },
-    {
-      url: 'assets/images/greenfields.JPG',
-      alt: 'Agriculture/Nature Visit'
-    },
+    // {
+    //   url: 'assets/images/greenfields.JPG',
+    //   alt: 'Agriculture/Nature Visit'
+    // },
     {
       url: 'assets/images/nagarjuna sagar.jpeg',
       alt: 'Nagarjuna Sagar'
